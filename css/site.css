@@ -15,6 +15,7 @@ header {
     border-radius: 25px 25px 0 0;
     color: white;
     position: relative;
+    text-align: center;
 }
 footer{
     background-color: #3d314a;
@@ -37,6 +38,7 @@ main {
     right: 10px
     width: 200px;
     height: 250px;
+    border-radius: 15px;
 }
 #line{
     margin-left: left 30px;
