@@ -32,14 +32,14 @@ main {
     width: 800px;
     margin: 100px auto 0 auto  ;
 }
-#family-photo {
+/*#family-photo {
     position: float-right;
     top: 15px;
     right: 10px
     width: 200px;
     height: 250px;
     border-radius: 15px;
-}
+}*/
 #BLS{
     float: right;
     border-radius: 15px;
