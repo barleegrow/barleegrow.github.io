@@ -42,8 +42,8 @@ main {
     border-radius: 15px;
 }
 #BLS{
-    Height: 124px;
-    Position: relative;
+ float: left;
+ border-radius: 15px;
 }
 #line{
     margin-left: left 30px;
