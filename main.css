@@ -43,9 +43,6 @@ main {
 #BLS{
     float: right;
     border-radius: 15px;
-     position:absolute;
-   top: 15px;
-   left:590px;
 }
 #line{
     margin-left: left 30px;
