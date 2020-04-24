@@ -39,7 +39,10 @@ main {
     width: 200px;
     height: 250px;
     border-radius: 15px;
- 
+}
+#BLS{
+    Height: 124px;
+    Position: relative;
 }
 #line{
     margin-left: left 30px;
