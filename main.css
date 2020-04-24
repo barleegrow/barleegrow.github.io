@@ -43,6 +43,7 @@ main {
 #BLS{
     Height: 124px;
     Position: float-right;
+    margin-left: 600px;
 }
 #line{
     margin-left: left 30px;
