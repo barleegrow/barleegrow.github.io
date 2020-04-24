@@ -42,7 +42,7 @@ main {
 }
 #BLS{
     Height: 124px;
-    Position: relative;
+    Position: float-right;
 }
 #line{
     margin-left: left 30px;
