@@ -36,10 +36,9 @@ main {
     position: absolute;  
     top: 15px;
     right: 10px
-    width: 200px;
-    height: 250px;
+    width: 100px;
+    height: 125px;
     border-radius: 15px;
-  display: block;
  
 }
 #line{
