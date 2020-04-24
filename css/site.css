@@ -27,7 +27,7 @@ footer{
 main {
     background-color: #d3d3d3;
     border: solid thick  #3d314a;
-    image-position: float-right;
+    image: float-right;
 }
 #content{
     width: 800px;
