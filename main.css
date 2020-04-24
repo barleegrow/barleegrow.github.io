@@ -41,9 +41,8 @@ main {
     border-radius: 15px;
 }
 #BLS{
-     margin-top: 22px;
-    margin-right: 22px;
-   
+    float: right;
+    border-radius: 15px;
 }
 #line{
     margin-left: left 30px;
