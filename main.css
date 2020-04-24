@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,900;1,400&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}   
+h1 {
+    text-align: center;
+    padding-top: 15px;
+}
+h2 {
+    font-size: 1em;
+}
+header {
+    background-color: #3d314a;
+    height:75 px;
+    border-radius: 25px 25px 0 0;
+    color: white;
+    position: relative;
+}
+footer{
+    background-color: #3d314a;
+    height:75px;
+    border-radius: 0 0 25px 25px;
+    color: white;
+    text-align: center
+}
+main {
+    background-color: #d3d3d3;
+    border: solid thick  #3d314a;
+}
+#content{
+    width: 800px;
+    margin: 100px auto 0 auto  ;
+}
+#family-photo {
+    position: absolute;  
+    top: 15 px;
+    left: 500px;
+    width: 200px;
+
+}
+#line{
+    margin-left: left 30px;
+    width: 700px
+}
+#BYU-I {
+    color: white;
+}
+#date{
+    color: blanchedalmond;
+}
