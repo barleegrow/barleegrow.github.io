@@ -33,7 +33,7 @@ main {
     margin: 100px auto 0 auto  ;
 }
 #family-photo {
-    position: relative;  
+    position: absolute;  
     top: 15px;
     right: 10px
     width: 200px;
