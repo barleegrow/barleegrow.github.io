@@ -13,7 +13,6 @@ h2 {
 header {
     background-color: #3d314a;
     height:75 px;
-    border-radius: 25px 25px 0 0;
     color: white;
     position: relative;
     text-align: center;
@@ -21,7 +20,6 @@ header {
 footer{
     background-color: #3d314a;
     height:75px;
-    border-radius: 0 0 25px 25px;
     color: white;
     text-align: center;
 }
@@ -42,9 +40,6 @@ main {
     border-radius: 15px;
 }*/
 #BLS{
-    float: right;
-    border-radius: 10px;
-    box-shadow: 5px 10px #888888;
     margin-right: 10px;
 }
 #line{
