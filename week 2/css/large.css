@@ -30,8 +30,9 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
 }
 section{
-    background-color: #3d314a;
     border-radius: 10px;
+    border: 2px;
+    border-color: #3d314a
     margin: 20px;
     padding: 0 15px 0 15px; 
 }
