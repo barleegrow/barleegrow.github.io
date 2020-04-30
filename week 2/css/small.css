@@ -10,6 +10,7 @@ h1 {
 }
 h2 {
     font-size: 1em;
+    color: white;
 }
 header {
     background-color: #3d314a;
@@ -45,7 +46,7 @@ img{
     display: block;
     max-width: 100px;
     margin-top: 10px;
-    
+
 }
 #content{
     width: 800px;
