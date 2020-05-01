@@ -35,7 +35,7 @@ section{
     margin: 20px;
     padding: 0 15px 0 15px; 
     border: 2px;
-    border-color: #3d314a
+    border-color: #3d314a;
     color: black;
 }
 section:nth-child(2){
