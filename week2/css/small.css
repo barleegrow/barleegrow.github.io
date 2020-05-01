@@ -4,7 +4,16 @@
 body{
     font-family: 'Poppins', sans-serif;
 }   
+
+header, footer {
+    background-color: #3d314a;
+    height:100px;
+    color: white;
+    position: relative;
+    text-align: center;
+}
 h1 {
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     padding-top: 15px;
 }
@@ -12,26 +21,13 @@ h2 {
     font-size: 1em;
     color: white;
 }
-header {
-    background-color: #3d314a;
-    height:100px;
-    color: white;
-    position: relative;
-    text-align: center;
-}
-footer{
-    background-color: #3d314a;
-    height:75px;
-    color: white;
-    text-align: center;
-}
 main {
     background-color: #d3d3d3;
     border: solid thick  #3d314a;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
 }
-a:llink {
+a:link {
     color: white;
 }
 a:visited {
@@ -56,7 +52,6 @@ section:nth-child(3){
     grid-row: auto;
 }
 img{
-    display: block;
     max-width: 100px;
     margin-top: 10px;
 
