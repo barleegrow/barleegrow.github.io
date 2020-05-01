@@ -31,7 +31,7 @@ main {
     width: 800px;
     margin: 100px auto 0 auto  ;
 #img {
-    margin-right:10px;
+    float: right;
     max-width:100%;
     height:auto;
 }
