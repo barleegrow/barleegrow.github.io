@@ -12,7 +12,7 @@ h2 {
 }
 header {
     background-color: #3d314a;
-    height:75 px;
+    height:100px;
     color: white;
     position: relative;
     text-align: center;
@@ -30,15 +30,6 @@ main {
 #content{
     width: 800px;
     margin: 100px auto 0 auto  ;
-}
-/*#family-photo {
-    position: float-right;
-    top: 15px;
-    right: 10px
-    width: 200px;
-    height: 250px;
-    border-radius: 15px;
-}*/
 #BLS{
     margin-right: 10px;
 }
