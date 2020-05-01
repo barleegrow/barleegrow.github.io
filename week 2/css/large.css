@@ -28,6 +28,7 @@ main {
     background-color: #d3d3d3;
     border: solid thick  #3d314a;
     grid-template-columns: 1fr 1fr 1fr;
+    color: black;
 }
 section {
     border-radius: 10px;
