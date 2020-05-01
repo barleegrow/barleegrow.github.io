@@ -28,6 +28,7 @@ h3 {
 main {
     background-color: #d3d3d3;
     border: solid thick  #3d314a;
+    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
 }
@@ -35,7 +36,7 @@ a:link {
     color: white;
 }
 a:visited {
-    color: blanchedalmond
+    color: blanchedalmond;
 }
 section {
     border-radius: 10px;
@@ -62,7 +63,7 @@ img{
 }
 #content{
     width: 800px;
-    margin: 100px auto 0 auto  ;
+    margin: 100px auto 0 auto;
 }
 #BYU-I {
     color: white;
