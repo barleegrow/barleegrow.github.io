@@ -31,6 +31,12 @@ main {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
 }
+a:llink {
+    color: white;
+}
+a:visited {
+    color: blanchedalmond
+}
 section {
     border-radius: 10px;
     margin: 20px;
