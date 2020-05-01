@@ -29,7 +29,7 @@ main {
     border: solid thick  #3d314a;
     grid-template-columns: 1fr 1fr 1fr;
 }
-section{
+section {
     border-radius: 10px;
     border: 2px;
     border-color: #3d314a
