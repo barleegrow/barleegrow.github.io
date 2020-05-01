@@ -39,7 +39,6 @@ section {
     border-color: #3d314a;
     grid-column: 1;
     grid-row: 1;
-    background-color: black;
     color: white;
 }
 section:nth-child(2){
