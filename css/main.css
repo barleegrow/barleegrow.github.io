@@ -30,12 +30,15 @@ main {
 #content{
     width: 800px;
     margin: 100px auto 0 auto  ;
-#photo{
-    margin-right: 10px;
+#img {
+    margin-right:10px;
+    max-width:100%;
+    height:auto;
 }
 #line{
     margin-left: left 30px;
     width: 700px
+    weight: 5px;
 }
 #BYU-I {
     color: white;
