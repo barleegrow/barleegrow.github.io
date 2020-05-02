@@ -4,9 +4,8 @@
 body{
     font-family: 'Poppins', sans-serif;
 }   
-display: grid;
 header, footer {
-    display: grid;
+    
     background-color: #3d314a;
     height:100px;
     color: white;
@@ -29,6 +28,8 @@ h3 {
 main {
     background-color: #d3d3d3;
     border: solid thick  #3d314a;
+    display: grid;
+    gap: 15px;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
 }
