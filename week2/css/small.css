@@ -47,7 +47,6 @@ section {
     border-color: #3d314a;
     grid-column: 1;
     grid-row: 1;
-    color: white;
 }
 section:nth-child(2){
     grid-column: 2;
@@ -57,7 +56,7 @@ section:nth-child(3){
     grid-column: 3;
     grid-row: auto;
 }
-imgBackground {
+#imgBackground {
     background-color: #4c3d5d;
     padding: 10px;
 }
