@@ -18,11 +18,11 @@ h1 {
 }
 h2 {
     font-size: 1em;
-    color: white;
+    color:#3d314a;
 }
 h3 {
     font-family: 'Poppins', sans-serif;
-    color: blanchedalmond;    
+    color: #3d314a;    
 }
 main {
     background-color: #d3d3d3;
@@ -33,11 +33,11 @@ main {
     grid-template-rows: auto;
 }
 a:link {
-    color: blanchedalmond;
+    color: navy;
     padding: 10px;
 }
 a:visited {
-    color: oldlace;
+    color:blue;
 }
 section {
     border-radius: 10px;
