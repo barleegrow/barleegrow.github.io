@@ -34,6 +34,7 @@ main {
 }
 a:link {
     color: blanchedalmond;
+    padding: 10px;
 }
 a:visited {
     color: oldlace;
