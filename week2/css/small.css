@@ -65,6 +65,7 @@ img{
     height: auto;
     padding-top: 10px;
     padding-bottom: 10px;
+    box-shadow: #3d314a 0 0 20px;
 }
 #content{
     width: 800px;
