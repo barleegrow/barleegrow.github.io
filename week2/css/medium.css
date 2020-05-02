@@ -4,26 +4,7 @@
 body{
     font-family: 'Poppins', sans-serif;
 }   
-h1 {
-    text-align: center;
-    padding-top: 15px;
-}
-h2 {
-    font-size: 1em;
-}
-header {
-    background-color: #3d314a;
-    height:100px;
-    color: white;
-    position: relative;
-    text-align: center;
-}
-footer{
-    background-color: #3d314a;
-    height:75px;
-    color: white;
-    text-align: center;
-}
+
 main {
     background-color: #d3d3d3;
     border: solid thick  #3d314a;
@@ -35,17 +16,14 @@ section{
     padding: 0 15px 0 15px; 
     border: 2px;
     border-color: #3d314a;
-   
+    color: black;
 }
-
-#content{
-    width: 800px;
-    margin: 100px auto 0 auto  ;
+section:nth-child(2){
+    grid-column: 2;
+    grid-row: auto;
 }
-#BYU-I {
-    color: white;
-}
-#date{
-    color: blanchedalmond;
+section:nth-child(3){
+    grid-column: 3;
+    grid-row: auto;
 }
 }
