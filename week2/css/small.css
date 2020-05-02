@@ -23,7 +23,7 @@ h2 {
 }
 h3 {
     font-family: 'Poppins', sans-serif;
-    color: black;    
+    color: blanchedalmond;    
 }
 main {
     background-color: #d3d3d3;
@@ -34,10 +34,10 @@ main {
     grid-template-rows: auto;
 }
 a:link {
-    color: white;
+    color: blanchedalmond;
 }
 a:visited {
-    color: blanchedalmond;
+    color: oldlace;
 }
 section {
     border-radius: 10px;
@@ -57,12 +57,15 @@ section:nth-child(3){
     grid-column: 3;
     grid-row: auto;
 }
+.imgBackground {
+    background-color: #4c3d5d;
+    padding: 10px;
+
+}
 img{
-    max-width: 100px;
     width: auto;
     height: auto;
     margin-top: 10px;
-
 }
 #content{
     width: 800px;
