@@ -65,7 +65,9 @@ section:nth-child(3){
 img{
     width: auto;
     height: auto;
-    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
 }
 #content{
     width: 800px;
