@@ -56,7 +56,7 @@ section:nth-child(3){
     grid-column: 3;
     grid-row: auto;
 }
-#imgBackground {
+.imgBackground {
     background-color: #4c3d5d;
     padding: 10px;
 }
