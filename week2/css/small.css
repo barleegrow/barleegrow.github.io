@@ -60,8 +60,8 @@ section:nth-child(3){
     background-color: #4c3d5d;
     padding: 10px;
 }
-img{
-    width: auto;
+.img{
+    width: 30%;
     height: auto;
     padding-top: 10px;
     padding-bottom: 10px;
