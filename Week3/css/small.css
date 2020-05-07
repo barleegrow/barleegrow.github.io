@@ -39,7 +39,7 @@ a:link {
 a:visited {
     color: #f4a261;
 }
-section {
+div {
     border-radius: 10px;
     margin: 20px;
     padding: 15px 15px 15px 15px; 
@@ -56,6 +56,9 @@ section {
     padding-top: 10px;
     padding-bottom: 10px;
     box-shadow: #3d314a 0 0 20px;
+}
+.persona{
+    float: left;
 }
 #content{
     width: 800px;
