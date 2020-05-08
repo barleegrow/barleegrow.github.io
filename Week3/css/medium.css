@@ -5,6 +5,7 @@
     main {
         background-color: white;
         border: solid thick  #264653;
+        grid-template-columns: 1fr 1fr;
     }
     }
 

@@ -18,19 +18,23 @@ h1 {
 }
 h2 {
     font-size: 1em;
-    color:#e9c46a;
+    color:#2a9d8f;
 }
 h3 {
     font-family: 'Oxygen', sans-serif;
-    color:#e9c46a;
+    color:#2a9d8f;
 }
 p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
     color: #264653;
 }
 main {
     background-color: white;
     border: solid thick  #264653;
+    display: grid;
     gap: 15px;
+    grid-template-columns: 1fr;
 }
 a:link {
     color: #e76f51;
@@ -46,18 +50,21 @@ div {
     border: 5px;
     border-color: #264653;
 }
-.imgBackground {
+.title {
     background-color: #264653;
     padding: 10px;
 }
-.img{
-    width: 100%;
+
+}
+.persona{
+    float: left;
+    width: 250px;
     height: auto;
     padding-top: 10px;
     padding-bottom: 10px;
-    box-shadow: #3d314a 0 0 20px;
+    box-shadow: #2a9d8f 0 0 10px;
 }
-.persona{
+.logo{
     float: left;
 }
 #content{
