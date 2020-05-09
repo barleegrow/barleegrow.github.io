@@ -31,20 +31,27 @@ p {
 }
 nav{
     background-color: #264653;
-    display: block;
+    text-align: center;
+    box-shadow: 0 2px 15px #2a9d8f
 }
 nav ul{
     display: flex;
     list-style: none;
     margin: 0;
     padding: 2px;
+    overflow: hidden;
 }
-nav ul li a{
+nav li a{
     display: block;
     color: white;
     text-align: center;
     padding:10px;
     font-size: 16px;
+    text-decoration: none;
+}
+nav a:hover{
+background-color: aqua;
+color: #264653
 }
 main {
     background-color: white;
@@ -66,6 +73,9 @@ div {
     padding: 15px 15px 15px 15px; 
     border: 5px;
     border-color: #264653;
+}
+.active{
+    color: #e9c46a;
 }
 .title {
     background-color: #264653;
