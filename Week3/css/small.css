@@ -43,7 +43,7 @@ nav ul li a{
     display: block;
     color: white;
     text-align: center;
-    padding:
+    padding:10px;
     font-size: 16px;
 }
 main {
@@ -80,9 +80,7 @@ div {
     padding-bottom: 10px;
     box-shadow: #2a9d8f 0 0 10px;
 }
-.logo{
-    float: left;
-}
+
 #content{
     width: 800px;
     margin: 100px auto 0 auto;
