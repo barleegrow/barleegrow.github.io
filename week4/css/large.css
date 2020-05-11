@@ -1,16 +1,14 @@
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 900px){
  
 
     main {
         background-color: white;
         border: solid thick  #264653;
-        grid-template-columns: 1fr 1fr;
     }
-    nav ul{
+    } nav ul{
         display: flex;
-   
     }
+    nav li{
+        flex: 1 1 100%;
     }
-
- 
