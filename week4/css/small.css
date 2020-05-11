@@ -1,0 +1,72 @@
+body{
+    font-family: 'Oxygen', sans-serif;
+}   
+header, footer {  
+    background-color: #264653;
+    height:100px;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+h1 {
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+    padding-top: 15px;
+}
+h2 {
+    font-size: 1em;
+    color:#2a9d8f;
+}
+h3 {
+    font-family: 'Oxygen', sans-serif;
+    color:#2a9d8f;
+}
+p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    color: #264653;
+}
+nav{
+    background-color: #264653;
+    text-align: center;
+    box-shadow: 0 2px 15px #2a9d8f
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 2px;
+    overflow: hidden;
+}
+nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding:10px;
+    font-size: 16px;
+    text-decoration: none;
+}
+nav a:hover{
+background-color: aqua;
+color: #264653
+}
+main {
+    background-color: white;
+    border: solid thick  #264653;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr;
+}
+a:link {
+    color: #e76f51;
+    padding: 10px;
+}
+a:visited {
+    color: #f4a261;
+}
+div {
+    border-radius: 10px;
+    margin: 20px;
+    padding: 15px 15px 15px 15px; 
+    border: 5px;
+    border-color: #264653;
