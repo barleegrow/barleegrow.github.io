@@ -8,6 +8,17 @@ header{
     align-items: center;
     background-color:  #264653;
 }
+#sitename{
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+#motto{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
 h1 {
     font-family: 'Oxygen', sans-serif;
     text-align: center;
