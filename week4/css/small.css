@@ -2,32 +2,27 @@ body{
     font-family: 'Oxygen', sans-serif;
 }   
 header{
-    display: flex;
-    flex-wrap: nowrap;
+    display: grid;
     background-color: white;
-}
-footer{
-    display: flex;
-    flex-wrap: nowrap;
-    background-color:#264653;
-    align-items: center;
-    color: white;
-}
+    }
+
 #sitename{
     color :#264653;
-    font-size: 30px;
-    margin-right: 10px;
+    font-size: 55px;
     margin-top: 15px;
-    align-self: center;
-    flex-direction: column;
-  
+    grid-column: 2;
+    grid-row: 1;
 }
 #motto{
     color: #264653;
     font-size: 20px;
-    align-self: center;
-    flex-direction: column;
-    justify-content: space-around;
+    grid-column: 2;
+    grid-row: 2;  
+    }
+#logo{
+    border-radius: 20px;
+    padding: 10px;
+    grid-column: 1;
 }
 h1 {
     font-family: 'Oxygen', sans-serif;
@@ -49,12 +44,14 @@ p {
     color: #264653;
 }
 nav{
-    display:flex;
+    display: flex;
+    color: white;
     background-color: #264653;
     text-align: center;
-    box-shadow: 0 2px 15px #2a9d8f
-    color: white;
-}
+    box-shadow: 0 2px 15px #e76f51;
+    align-content: stretch;
+    
+    }
 nav ul{
     display: flex;
     list-style: none;
@@ -79,11 +76,14 @@ color: #264653
     display: flex;
 }
 main {
-    background-color: white;
+    background-color: #2a9d8f;
     border: solid thick  #264653;
-    display: grid;
-    gap: 15px;
-    grid-template-columns: 1fr;
+    margin: 10 px auto;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
 }
 a:link {
     color: #e76f51;
@@ -100,11 +100,19 @@ div {
     border-color: #264653;
 }
 .contentbox{
-background-color: #2a9d8f;
-border: 2px solid #264653
-padding: 10px;
-margin: 10px;
-border-radius: 5px;
-position: center;
-color: black;
+    display: flex;
+    flex-direction: column;
+    background-color: #e9c46a;
+    border: 1px solid #264653;
+    
+}
+footer{
+    display: block;
+    background-color:#264653;
+    align-items: center;
+    color: white;
+}
+#today{
+    display: block;
+    margin-top: 10px;
 }

@@ -14,7 +14,7 @@
 </head>
 <body>
 <header>
-    <img src="/week4/images/sportweather-1.jpg" alt="logo">
+    <img id= "logo"src="/week4/images/sportweather-1.jpg" alt="logo">
   <div id="sitename">SportWeather</div>
   <div id="motto">"Not scared just prepared."</div>
 </header>
@@ -22,25 +22,27 @@
         <button onclick="toggle_menu()" id="menu_button">☰ Menu</button>
 <ul class="nav_main" class="nav_hidden" >
     
-    <li>Home</li>
-    <li>Preston</li>
-    <li>Soda Springs</li>
-    <li>Fish Haven</li>
-    <li>Storm Center</li>
-    <li>Gallery</li>
+    <li><a href="#" class="active"></a> Home</li>
+    <li><a href="#">Preston</a></li>
+    <li><a href="#">Soda Springs</a></li>
+    <li><a href="#">Fish Haven</a></li>
+    <li><a href="#">Storm Center</a></li>
+    <li><a href="#">Gallery</a></li>
 </ul>
 </nav>
 <main>
-<div class="contentbox">Summary</div>
+<div class="contentbox">Weather Summary on Hero Image</div>
 <div class="contentbox">5 Day Forecast</div>
 <div class="contentbox">Workout Conditions</div>
 <div class="contentbox">Contact Information</div>
 </main>
 <footer>
-        <span id="year"></span> | Barbara Stacey | Georgia | <a id="BYU-I" href="https://www.byui.edu/online">BYUI Online Learning</a><br>
-         Last Updated: <span id="today"></span>         
-</footer>
-         <script src="/week4/js/week4.js"></script>  
+        <span id="year"></span>
+        | Barbara Stacey | Georgia |
+        <a id="BYU-I" href="https://www.byui.edu/online">BYUI Online Learning</a>
+        <br>
+        <span id="today">Thursday, 14 May 2020</span>         
         </footer>
+        <script src="/week4/js/week4.js"></script>  
 </body>
 </html>
