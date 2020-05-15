@@ -74,7 +74,7 @@ div {
     border-color: #264653;
 }
 img {
-    height: 250px;
+    width: 100%;
     }
 .active{
     color: #e9c46a;
