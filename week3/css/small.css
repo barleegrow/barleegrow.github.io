@@ -6,7 +6,6 @@ body{
 }   
 header, footer {  
     background-color: #264653;
-    height:100px;
     color: white;
     position: relative;
     text-align: center;
@@ -74,6 +73,9 @@ div {
     border: 5px;
     border-color: #264653;
 }
+img {
+    height: 250px;
+    }
 .active{
     color: #e9c46a;
 }
