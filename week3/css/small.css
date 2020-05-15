@@ -76,6 +76,10 @@ div {
 img {
     width: 100%;
     }
+#logo{
+    height: 100px;
+    width: 100px;
+}    
 .active{
     color: #e9c46a;
 }
