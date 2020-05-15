@@ -79,7 +79,6 @@ nav_hidden{display:none;}
 main {
     background-color: white;
     border: solid thick  #264653;
-    margin: 10 px auto;
     padding: 25px;
     display: flex;
     flex-direction: column;
