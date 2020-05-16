@@ -79,7 +79,7 @@ nav ul{
 .navigation a{
     display: block;
     padding: .8rem 2%;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
     color: white;
     border-top: 1px solid rgba(0,0,0,0.3);

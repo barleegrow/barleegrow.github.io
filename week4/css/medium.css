@@ -10,6 +10,7 @@ nav button {
 
 .navigation {
     display: flex;
+    flex-direction: row;
 }
 .navigation li {
     display: flex; 
