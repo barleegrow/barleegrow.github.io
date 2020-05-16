@@ -13,7 +13,7 @@ nav button {
     flex-direction: row;
 }
 .navigation li {
-    display: flex; 
+    display: block; 
     flex: 1 1 auto;
 }
 .navigation a {
