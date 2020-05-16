@@ -12,7 +12,7 @@ nav button {
     display: flex;
 }
 .navigation li {
-    display: block; /* change state in small view */
+    display: flex; 
     flex: 1 1 auto;
 }
 .navigation a {

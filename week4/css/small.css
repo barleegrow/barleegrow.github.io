@@ -70,6 +70,9 @@ nav ul{
 .navigation li{
     display: none;
 }
+.navigation li:first-child{
+    display:block;
+}
 .navigation a{
     display: block;
     padding: .8rem 2%;

@@ -1,6 +1,6 @@
-//function toggle_menu() {
- //   document.getElementById("nav_main").classList.toggle("nav_hidden");
- //}
+function toggleMnu() {
+document.getElementById("nav_main").classList.toggle("nav_hidden");
+ }
  const date = new Date();
  const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
  const MonthName = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -14,4 +14,4 @@
 const hambutton = document.querySelector('.ham');
 const mainnav = document.querySelector('.navigation')
 
-hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
+//hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
