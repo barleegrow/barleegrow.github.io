@@ -1,5 +1,5 @@
-function toggleMnu() {
-document.getElementById("nav_main").classList.toggle("nav_hidden");
+function toggleMenu() {
+document.getElementByClassName("navigation")[0].classList.toggle("responsive");
  }
  const date = new Date();
  const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -14,4 +14,4 @@ document.getElementById("nav_main").classList.toggle("nav_hidden");
 const hambutton = document.querySelector('.ham');
 const mainnav = document.querySelector('.navigation')
 
-//hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
+hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
