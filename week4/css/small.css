@@ -47,7 +47,6 @@ p {
 }
 nav{
     margin: 0 auto;
-    max-width: 760px;
     color: white;
     background-color: #264653;
     box-shadow: 0 2px 15px #e76f51;
@@ -71,7 +70,10 @@ nav{
 color: black;
 background-color: #2a9d8f;
 }
-nav ul{
+.responsiveli{
+    display: block;
+}
+/*nav ul{
     display: flex;
     list-style: none;
     margin: 0;
@@ -94,7 +96,7 @@ color: #264653
 nav_hidden{display:none;}
 .menu{
     display: flex;
-}
+}*/
 main {
     background-color: white;
     border: solid thick  #264653;
