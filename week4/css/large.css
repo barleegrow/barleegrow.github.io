@@ -4,6 +4,10 @@
     header img{
         width: 100%;
  }
+ nav button {
+     display: none
+    }
+
  .headings h1{font-size: 48px
  }
  .motto{

@@ -45,12 +45,24 @@ p {
     font-size: 16px;
     color: #264653;
 }
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #e9c46a;
+}
 nav{
     margin: 0 auto;
     color: white;
     background-color: #264653;
     box-shadow: 0 2px 15px #e76f51;
     }
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
 .navigation{
     list-style: none;
     padding: 0;
@@ -60,11 +72,12 @@ nav{
 }
 .navigation a{
     display: block;
-    padding: 15px;
+    padding: .8rem 2%;
     text-align: left;
     text-decoration: none;
     color: white;
     font-weight: 700;
+    border-top: 1px solid rgba(0,0,0,0.3);
 }
 .navigation a:hover{
 color:#e9c46a;
@@ -72,22 +85,11 @@ color:#e9c46a;
 .responsiveli{
     display: block;
 }
-/*nav ul{
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 2px;
-    overflow: hidden;
-    color: white;
+.navigation active a{
+background-color: rgba(0,0,0,0.2);
+color: black
 }
-nav li a{
-    display: block;
-    color: white;
-    text-align: center;
-    padding:10px;
-    font-size: 16px;
-    text-decoration: none;
-}
+/*
 nav a:hover{
 background-color: aqua;
 color: #264653
