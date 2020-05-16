@@ -34,11 +34,11 @@ header img{
     }
 h2 {
     font-size: 18px;
-    color:#2a9d8f;
+
 }
 h3 {
     font-family: 'Oxygen', sans-serif;
-    color:#2a9d8f;
+
 }
 p {
     font-family: 'Oxygen', sans-serif;
@@ -67,8 +67,7 @@ nav{
     font-weight: 700;
 }
 .navigation a:hover{
-color: black;
-background-color: #2a9d8f;
+color:#e9c46a;
 }
 .responsiveli{
     display: block;
@@ -107,7 +106,7 @@ main {
     text-decoration: none;
 }
 a:link {
-    color: #e76f51;
+    color: white;
     padding: 10px;
 }
 a:visited {
