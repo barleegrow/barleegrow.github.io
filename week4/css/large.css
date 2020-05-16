@@ -28,7 +28,7 @@
         background-color: white;
         border: solid thick  #264653;
     }
-    } nav ul{
+     nav ul{
         display: flex;
     }
     nav li{
