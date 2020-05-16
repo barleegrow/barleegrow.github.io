@@ -1,4 +1,4 @@
-document.getElementById("modified").innerHTML = todayDate();
+document.getElementById("today").innerHTML = todayDate();
 
 function todayDate() {
     var today = new Date();
