@@ -43,6 +43,7 @@ h3 {
 p {
     font-family: 'Oxygen', sans-serif;
     font-size: 16px;
+    margin: 0px;
     /*color: #264653;*/
 }
 nav button{
@@ -129,6 +130,7 @@ footer{
     background-color:#264653;
     align-items: center;
     color: white;
+    padding: 10px;
 }
 #today{
     display: block;
