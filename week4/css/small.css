@@ -1,35 +1,37 @@
 body{
     font-family: 'Oxygen', sans-serif;
+    background-color: white;
+    padding: 0;
+    margin: 0;
 }   
 header{
-    display: grid;
     background-color: white;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     }
-
-#sitename{
-    color :#264653;
-    font-size: 55px;
-    margin-top: 15px;
-    grid-column: 2;
-    grid-row: 1;
-}
-#motto{
-    color: #264653;
-    font-size: 20px;
-    grid-column: 2;
-    grid-row: 2;  
-    }
-#logo{
+header img{
     border-radius: 20px;
-    padding: 10px;
-    grid-column: 1;
+    width: 80px;
+    height: auto;
 }
-h1 {
-    font-family: 'Oxygen', sans-serif;
-    text-align: center;
-    padding-top: 15px;
-    font-size: 18px;
+.headings{
+    display: flex;
+    flex-direction: column;
 }
+.headings h1 {
+    font-size: 60 px;
+    margin: 0 0 0 15px;
+    color: #264653;
+}
+.motto{
+    font-style: italic;
+    letter-spacing: 1pt; 
+    color: #264653;
+    margin-left: 20px;
+    font-size: 16px;
+    }
 h2 {
     font-size: 18px;
     color:#2a9d8f;
@@ -44,14 +46,31 @@ p {
     color: #264653;
 }
 nav{
-    display: flex;
+    margin: 0 auto;
+    max-width: 760px;
     color: white;
     background-color: #264653;
-    text-align: center;
     box-shadow: 0 2px 15px #e76f51;
-    align-content: stretch;
-    
     }
+.navigation{
+    list-style: none;
+    padding: 0;
+}
+.navigation li{
+    display: none;
+}
+.navigation a{
+    display: block;
+    padding: 15px;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.navigation a:hover{
+color: black;
+background-color: #2a9d8f;
+}
 nav ul{
     display: flex;
     list-style: none;

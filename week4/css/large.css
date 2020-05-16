@@ -1,7 +1,16 @@
 
 @media only screen and (min-width: 900px){
  
-
+    header img{
+        width: 100%;
+ }
+ .headings h1{font-size: 48px
+ }
+ .motto{
+     letter-spacing: 1.5pt;
+     font-size: larger;
+     margin-left: 17px;
+ }    
     main {
         background-color: white;
         border: solid thick  #264653;
