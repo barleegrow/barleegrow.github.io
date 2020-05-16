@@ -8,5 +8,6 @@ function todayDate() {
     var day = days[today.getDay()];
     var dayDate = today.getDate();
     var year = today.getFullYear();
-    return  day + ", " + dayDate + " " + month + " " + year;
+    var final=  day + ", " + dayDate + " " + month + " " + year;
+    return final;
 }
