@@ -11,4 +11,41 @@
     <link href="css/small.css" rel="stylesheet">
     <link href="medium.css" rel="stylesheet">
     <link href="large.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,900;1,400&display=swap" rel="styleshee
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,900;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+        <header>
+                <picture>
+            <img src="images/sportweather-1.jpg" alt="logo">
+        </picture>
+          <section class="headings">
+                  <h1>SportWeather</h1>
+          <div class="motto">"Not scared just prepared."</div>
+          </section>
+        </header>
+        <nav>
+        <ul class="navigation">
+            
+                <li><a class="ham" onclick="toggleMenu()" href="#">&#9776 Menu</a></li>    
+            <li><a href="#" class="active">Home</a> </a></li>
+            <li><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+        </nav>
+    <main>
+    <div class="herodiv">
+     <img src="images/Track.png">
+     <section class="summary">
+      <h2>Weather Summary</h2>
+      <p>Temperature: <span id="temperature"></span></p>
+      <p>High: <span id="high"></span></p>
+      <p>Low: <span id="low"></span></p>
+      <p>Chance of Precipitaiton: <span id="precip"></span></p>
+      <p>Workout Forecast: <span id="workout"></span></p>
+     </section>
+    </div>
+    </main>
+</body>
