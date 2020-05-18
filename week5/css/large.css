@@ -1,0 +1,40 @@
+
+@media only screen and (min-width: 900px){
+ 
+    header img{
+        width: 100%;
+ }
+ nav button {
+     display: none
+    }
+
+ .headings h1{font-size: 48px
+ }
+ .motto{
+     letter-spacing: 1.5pt;
+     font-size: larger;
+     margin-left: 17px;
+ }    	.navigation {
+    display: flex;
+}
+.navigation li {
+    display: flex; 
+    flex: 1 1 auto;
+}
+.navigation a {
+    text-align: center;
+}
+.navigation li:first-child {
+    display: none;
+}
+}
+    main {
+        background-color: white;
+        border: solid thick  #264653;
+    }
+     nav ul{
+        display: flex;
+    }
+    nav li{
+        flex: 1 1 100%;
+    }
