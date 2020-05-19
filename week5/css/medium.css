@@ -1,13 +1,31 @@
 
 @media only screen and (min-width: 35rem){
  
-   header img{
+header img{
        width: 100%;
 }
 nav button {
     display: none
 }
-
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+table{
+    border-spacing: 5px;
+}
+.fiveday{
+    text-align: center;
+    padding: 5px;
+}
+#fivedaytable{
+    margin: auto;
+    width: 50%;
+}
+#fivedays{
+    background-color: #e9c46a;
+}
 .navigation {
     display: flex;
     flex-direction: row;
