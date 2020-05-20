@@ -86,6 +86,7 @@ background-color: #2a9d8f;
 .articleimg{
     width:25%;
     float: right;
+    position: relative;
 }
 .contentbox{
     display: flex;
@@ -116,6 +117,7 @@ background-color: #2a9d8f;
     background-color: #ffffff;
     width: 100%;
     position: relative;
+    margin: 10px auto;
 }
 .motto{
         font-style: italic;
@@ -157,7 +159,7 @@ background-color: #2a9d8f;
 .summary {
 	position: absolute;
 	top: 25px;
-	right: 50px;
+	left: 50px;
 	background: radial-gradient(#eee, #f4a261);
     border: 1px solid #e76f51;
     border-radius: 20px;
@@ -167,6 +169,7 @@ background-color: #2a9d8f;
 }
 #heroimg{
   width: 100%;
+  margin: 10px auto;
 }
 #today{
     display: block;

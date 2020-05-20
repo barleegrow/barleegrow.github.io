@@ -38,3 +38,22 @@
     nav li{
         flex: 1 1 100%;
     }
+    tr{
+        display: table-row;
+        vertical-align: inherit;
+        border-color: inherit;
+    }
+    table{
+        border-spacing: 5px;
+    }
+    .fiveday{
+        text-align: center;
+        padding: 5px;
+    }
+    #fivedaytable{
+        margin: auto;
+        width: 50%;
+    }
+    #fivedays{
+        background-color: #e9c46a;
+    }
