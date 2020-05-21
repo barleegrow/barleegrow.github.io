@@ -32,13 +32,17 @@ header{
     align-items: center;
     justify-content: center;
     }
-h1 {text-align: center;font-size:2.5rem;text-shadow:3px 3px 5px #264653;
+h1 {text-align: center;
+    font-size:2.5rem;
+    text-shadow:3px 3px 5px #264653;
+    margin: 0;
     }
 h2 { font-size: 18px;
+    margin: 0;
 }
 h3 {
-        font-family: 'Oxygen', sans-serif;
-    }
+    margin: 0;
+}
 header img{
     border-radius: 20px;
     width: 80px;
@@ -83,10 +87,18 @@ p {
 .active {
 background-color: #2a9d8f;
 }
+.article{
+    display: block;
+    background-color: #e9c46a;
+    border: 1px solid #264653; 
+    color: #264653;   
+    text-align: left; 
+}
 .articleimg{
     width:25%;
     float: right;
     position: relative;
+    border-radius: 15px;
 }
 .contentbox{
     display: flex;
@@ -95,15 +107,10 @@ background-color: #2a9d8f;
     border: 1px solid #264653; 
     color: #264653    
 }
-.contentbox article{
-    display: block;
-    background-color: #e9c46a;
-    border: 1px solid #264653; 
-    color: #264653    
-}
 .fiveday{
     display: none;
 }
+
 .headings{
     display: flex;
     flex-direction: column;
@@ -115,7 +122,7 @@ background-color: #2a9d8f;
 }
 .herodiv {margin: 10px auto;
     background-color: #ffffff;
-    width: 100%;
+    width: 80%;
     position: relative;
     margin: 10px auto;
 }
@@ -158,18 +165,20 @@ background-color: #2a9d8f;
 }
 .summary {
 	position: absolute;
-	top: 25px;
-	left: 50px;
+	top: 400px;
+	right: 50px;
 	background: radial-gradient(#eee, #f4a261);
     border: 1px solid #e76f51;
     border-radius: 20px;
 	padding: 1.5rem;
-    box-shadow: 0 0 30px #111;
+    box-shadow: 0 0 15px #111;
 	opacity: .7;
 }
 #heroimg{
   width: 100%;
   margin: 10px auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #111;
 }
 #today{
     display: block;

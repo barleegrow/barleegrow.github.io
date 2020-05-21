@@ -7,7 +7,8 @@ header img{
 nav button {
     display: none
 }
-tr{
+
+/*tr{
     display: table-row;
     vertical-align: inherit;
     border-color: inherit;
@@ -15,17 +16,23 @@ tr{
 table, th, ::-webkit-textfield-decoration-container{
     border: 1px #264653;
     border-spacing: 5px;
-}
+}*/
 .fiveday{
+    display: flex;
+    flex-flow: row wrap;
     text-align: center;
     padding: 5px;
 }
-#fivedaytable{
+/*#fivedaytable{
     margin: auto;
     width: 100%;
 }
 #fivedays{
     background-color: #e9c46a;
+}*/
+.flex-col:{
+    flex: 1 1 auto;
+    background-color: #2a9d8f;
 }
 .navigation {
     display: flex;
