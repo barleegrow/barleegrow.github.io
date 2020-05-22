@@ -189,7 +189,9 @@ background-color: #2a9d8f;
     background-color: white;
 }
 #preston-map{
-    width: 50%;
+    width: 25%;
+    border-radius: 5px;
+    
 }    
 #today{
     display: block;
