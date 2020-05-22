@@ -182,12 +182,12 @@ background-color: #2a9d8f;
 }
 #pancakes.show{
     display: block;
+    text-align: center;
 }
 #panckaes{
     display: none;
     background-color: white;
-    text-align: center;
-}
+}    
 #today{
     display: block;
     margin-top: 10px;
