@@ -180,6 +180,14 @@ background-color: #2a9d8f;
   border-radius: 5px;
   box-shadow: 0 0 10px #111;
 }
+#pancakes.show{
+    display: block;
+}
+#panckaes{
+    display: none;
+    background-color: white;
+    text-align: center;
+}
 #today{
     display: block;
     margin-top: 10px;

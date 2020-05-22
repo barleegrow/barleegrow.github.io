@@ -7,15 +7,19 @@ header img{
 nav button {
     display: none
 }
+.col-head{
+    display: flex;
+    flex-flow: row-wrap;
+}
 .data{
     display: flex;
-    flex-direction: row;
+    flex-flow: row-wrap;
     text-align: center;
     padding: 5px;
 }
 .fiveday{
     display: flex;
-    flex-direction: row;
+    flex-flow: row-wrap;
     text-align: center;
     padding: 5px;
 }
