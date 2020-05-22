@@ -116,7 +116,6 @@ background-color: #2a9d8f;
     flex-direction: column;
 }
 .headings h1 {
-    font-size: 60 px;
     margin: 0 0 0 15px;
     color: #264653;
 }
@@ -191,7 +190,7 @@ background-color: #2a9d8f;
 #preston-map{
     width: 25%;
     border-radius: 5px;
-    
+
 }    
 #today{
     display: block;
