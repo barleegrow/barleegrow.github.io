@@ -85,7 +85,9 @@ p {
     color: #264653;
 }
 .active {
-background-color: #2a9d8f;
+    background-color: #2a9d8f;
+    position:relative;
+
 }
 .article{
     display: block;
@@ -173,6 +175,10 @@ background-color: #2a9d8f;
     box-shadow: 0 0 15px #111;
 	opacity: .7;
 }
+#footer-text{
+    color: white;
+    text-align: center;
+}
 #heroimg{
   width: 100%;
   margin: 10px auto;
@@ -195,4 +201,6 @@ background-color: #2a9d8f;
 #today{
     display: block;
     margin-top: 10px;
+    color: white;
+    text-align: center;
 }
