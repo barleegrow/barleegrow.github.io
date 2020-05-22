@@ -187,6 +187,9 @@ background-color: #2a9d8f;
 #panckaes{
     display: none;
     background-color: white;
+}
+#preston-map{
+    width: 50%;
 }    
 #today{
     display: block;
