@@ -17,7 +17,6 @@ nav button {
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    background-color: #2a9d8f;
     color: white;
 }
 .data{
