@@ -168,7 +168,7 @@ p {
 }
 .summary {
 	position: absolute;
-	/*bottom: 50px;*/
+	bottom: 50px;
 	background: radial-gradient(#eee, #f4a261);
     border: 1px solid #e76f51;
     border-radius: 20px;
