@@ -42,17 +42,17 @@
        <!--<img id="heroimg" src="images/Track2.jpg" alt="track team">-->
        <picture>
           <img id="heroimg" srcset="images/image-400px" alt= "sunny day">
+          <source media ="(min-width: 500px) and (max-width: 799px)"srcset="images/image-600px" alt= "sunny day">
+          <source media ="(min-width: 800px)" srcset="images/image-800px" alt= "sunny day">
         </picture>
-          <source srcset="images/image-600px" alt= "sunny day" media ="(min-width: 500px) and (max-width: 799px)">
-          <source srcset="images/image-800px" alt= "sunny day"media ="(min-width: 800px)">
-       
             <section class="summary">
                 <h2>Weather Summary</h2>
-                <p>Temperature: <span id="temperature"></span></p>
-                <p>High: <span id="high"></span></p>
-                <p>Low: <span id="low"></span></p>
-                <p>Chance of Precipitaiton: <span id="precip"></span></p>
-             <p>Workout Forecast: <span id="workout"></span></p>
+                <p>Temperature: 42<span id="temperature"></span></p>
+                <p>Wind Chill: <span id="windchill"></span></p>
+                <p>High: 84<span id="high"></span></p>
+                <p>Wind Speed: 5mph<span id="windspeed"></span></p>
+                <p>Chance of Precipitaiton: 10%<span id="precip"></span></p>
+             <p>Workout Forecast: Great!<span id="workout"></span></p>
             </section>
     </div>
     <section>
@@ -90,7 +90,7 @@
             <div class="article">
                 <img class="articleimg" src="images/trailrunning.jpg" alt="hiking">
                 <h2>Outdoor Fitness Can Make You Happier</h2>
-                <p>I.B. Smiley</p><br>
+                <p>Bea Smiley</p><br>
                 <p>Studies show that exercise can make you happier. University of Vermont researchers have found
                     that just 20 minutes of exercise can last 12 hours. Exercise has the greatest effect on our bad moods.
                     It increases feel-good brain chemicals, reduces stress hormones, and has been shown to remedy both
@@ -126,5 +126,6 @@
             </footer>
             <script src="js/current_date.js"></script>  
             <script src="js/hamburger.js"></script> 
+            <script src="js/windchill.js"></script>
     </body>
     </html>
