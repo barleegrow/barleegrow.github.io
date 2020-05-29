@@ -186,6 +186,10 @@ p {
   border-radius: 5px;
   box-shadow: 0 0 10px #111;
 }
+#heroimg img{
+    width: 100%;
+    height: auto;
+}
 #pancakes.show{
     display: block;
     text-align: center;
