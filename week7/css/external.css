@@ -9,10 +9,17 @@ body{
 
 img[data-src] {
     filter: blur(.2em);
-    transition: filter .5 sec;
+    transition: filter 0.5 sec;
 }
 
 img{
     filter: blur(0em);
-    transition: filter .5s;
+    transition: filter 0.5s;
+}
+footer{
+    display: block;
+    background-color:#264653;
+    align-items: center;
+    color: white;
+    padding: 10px;
 }
