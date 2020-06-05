@@ -1,13 +1,24 @@
 
 @media only screen and (min-width: 900px){
  
-    header img{
+header img{
         width: 100%;
  }
  nav button {
      display: none
     }
-
+    .gallery{
+        display: grid ;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 15px;
+        margin: 1rem auto;
+    
+     }
+    .gallery-image:hover{
+        box-shadow: 0 0 50px #333;
+        width: 100%;
+        margin: 0.5rem;
+    }
  .headings h1{font-size: 48px
  }
  .motto{
@@ -18,7 +29,6 @@
  .navigation {
     display: flex;
 }
-
 .navigation a {
     text-align: center;
 }
@@ -26,14 +36,17 @@
     display: none;
 }
 }
-    main {
+main {
         background-color: white;
         border: solid thick  #264653;
     }
-     nav ul{
+nav ul{
         display: flex;
     }
-    nav li{
+nav li{
         flex: 1 1 100%;
     }
+
+ 
+
     
