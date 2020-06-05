@@ -202,7 +202,7 @@ figcaption{
     width: 100%;
     height: auto;
 }
-#pancakes.show{
+#pancakes{
     display: block;
     text-align: center;
 }
