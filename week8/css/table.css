@@ -1,16 +1,29 @@
 /*Use a maximum of one class or id selector. Use one instance of the first child or nth child*/
-
-table {
-    border: 1px solid grey;
-    border-collapse: collapse;
-    box-shadow: 20 px 20px 5px   #628ca6;
-    max-width: 300px;
+body {
     font-family: Ubuntu, sans-serif;
 }
-thead {
+title {
     text-align: center;
     color: black;
     background-color: #7fb9c2;
+    font-size: 2em;
+    font-weight: bold;
+}
+table {
+    border: 1px solid #e7ffed;
+    border-collapse: collapse;
+    box-shadow: 15px 15px 20px   #628ca6;
+    max-width: 350px;
+}
+td, th {
+    border: solid 1 px #e7ffed;
+    text-align: center;
+    padding: 5 px;
+}
+th {
+    background-color: #7fb9c2;
+    color: black;
+    font-size: 1.5em;
 }
 tbody {
     background-color: #e7f0ed;
@@ -38,4 +51,8 @@ tfoot {
     text-align: center;
     background-color: #628ca6;
     color: white;
+}
+footer {
+    margin-top: 5rem;
+    text-align: center;
 }
