@@ -1,23 +1,42 @@
 /*Use a maximum of one class or id selector. Use one instance of the first child or nth child*/
 
-table, th, td {
+table {
     border: 1px solid grey;
     border-collapse: collapse;
+    box-shadow: 20 px 20px 5px   #628ca6;
+    max-width: 300px;
+    font-family: Ubuntu, sans-serif;
 }
-td:nth-child(odd){
-    background-color: #e7f0ed;
-}
-#row1{
-   background-color: #e7f0ed;
-}
-#row2{
-    background-color: #e7ffed;
-}
-.header-footer{
+thead {
+    text-align: center;
     color: black;
     background-color: #7fb9c2;
 }
-.table-head{
-    color: white;
-    background-color: #628ca6;
+tbody {
+    background-color: #e7f0ed;
 }
+tbody:nth-child(odd) {
+    background-color: #e7ffed;
+}
+td {
+    border: 1px solid grey; 
+    height: 30px;
+}
+tr {
+    background-color:  #e7f0ed;
+}
+tr:nth-child(odd) {
+    background-color: #e7ffed ;
+}
+}
+tfoot {
+    text-align: center;
+    color: black;
+    background-color: #7fb9c2;
+}
+.headers {
+    text-align: center;
+    background-color: #628ca6;
+    color: white;
+}
+#
