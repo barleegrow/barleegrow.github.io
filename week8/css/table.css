@@ -28,7 +28,7 @@ tr {
 tr:nth-child(odd) {
     background-color: #e7ffed ;
 }
-}
+
 tfoot {
     text-align: center;
     color: black;
@@ -39,4 +39,3 @@ tfoot {
     background-color: #628ca6;
     color: white;
 }
-#
