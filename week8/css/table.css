@@ -1,8 +1,8 @@
-/*Use a maximum of one class or id selector. Use one instance of the first child or nth child*/
+
 body {
     font-family: Ubuntu, sans-serif;
 }
-title {
+caption {
     text-align: center;
     color: black;
     background-color: #7fb9c2;
@@ -16,9 +16,9 @@ table {
     max-width: 350px;
 }
 td, th {
-    border: solid 1 px #e7ffed;
+    border: solid 1px #e7ffed;
     text-align: center;
-    padding: 5 px;
+    padding: 5px;
 }
 th {
     background-color: #7fb9c2;
@@ -51,8 +51,4 @@ tfoot {
     text-align: center;
     background-color: #628ca6;
     color: white;
-}
-footer {
-    margin-top: 5rem;
-    text-align: center;
 }
