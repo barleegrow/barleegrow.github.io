@@ -72,6 +72,9 @@ input:valid {
 #thanks{
     font-size: 2em;
 }
+#tickmarks{
+    font-size: 1em;
+}
 #yes{
     margin: 0 15px;
     font-size: 1em;
