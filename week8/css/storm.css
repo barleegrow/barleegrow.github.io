@@ -10,7 +10,7 @@ em {
 .container1 {
 	display: grid;
     grid-gap: .5rem;
-    width: auto;
+    width: 400px;
     background-color: #2a9d8f;
 }
 input,
