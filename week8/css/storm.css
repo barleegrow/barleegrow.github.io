@@ -1,0 +1,89 @@
+body {
+	font-size: 14px;
+	margin: 10px auto;
+	max-width: 960px;
+	font-family: Montserrat, helvetica, sans-serif;
+}
+em {
+	font-size: smaller;
+}
+.container1 {
+	display: grid;
+	grid-gap: .5rem;
+	align-items: center;
+    width: 400px;
+    background-color: #2a9d8f;
+}
+
+input,
+button,
+select,
+textarea {
+	padding: 0.5rem;
+	margin-bottom: .25rem;
+}
+
+input:focus {
+	box-shadow: 0 0 10px #fff;
+}
+fieldset {
+	background-color: #264653;
+    border-radius: 5px;
+    color: white;
+}
+legend {
+	font-family: Poppins, sans-serif;
+}
+
+input[type="button"] {
+	color:#264653;
+}
+input[type="button"]:hover {
+	background-color: #ddf;
+}
+
+input:invalid {
+	background-color: #ddf;
+	color: #000;
+}
+input:valid {
+	background-color: #fff;
+	color: #000;
+}
+
+.flexly {
+	display: flex;
+	align-items: center;
+}
+.selection {
+    display: flex;
+    align-items: center;
+   margin: 0 15px;
+}
+#ratingvalue {
+	margin: 0 15px;
+}
+#region{
+    margin: 0 15px;
+    font-size: 1em;
+}
+#storm-type{
+    margin: 0 15px;
+    font-size: 1em;
+}
+#thanks{
+    font-size: 2em;
+    font-style: bold;
+}
+#yes{
+    margin: 0 15px;
+    font-size: 1em;
+}
+#no{
+    margin: 0 15px;
+    font-size: 1em;
+}
+#maybe{
+    margin: 0 15px;
+    font-size: 1em;
+}

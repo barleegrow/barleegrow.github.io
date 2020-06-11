@@ -38,7 +38,7 @@ h1 {text-align: center;
     text-shadow:3px 3px 5px #264653;
     margin: 0;
     }
-h2 { font-size: 18px;
+h2 { font-size: 2rem;
     margin: 0;
     text-align: center;
 }
@@ -103,8 +103,7 @@ p {
     position: relative;
     border-radius: 15px;
 }
-
-.contentbox{
+.container{
     display: flex;
     flex-direction: column;
     background-color:#e9c46a;
@@ -112,6 +111,14 @@ p {
     color: #264653;   
     box-shadow: 0 0 10px #111;
 }
+/*.contentbox{
+    display: flex;
+    flex-direction: column;
+    background-color:#e9c46a;
+    border: 1px solid #264653; 
+    color: #264653;   
+    box-shadow: 0 0 10px #111;
+}*/
 figcaption{
     font-size: smaller;
 }
