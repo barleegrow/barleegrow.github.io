@@ -9,9 +9,8 @@ em {
 }
 .container1 {
 	display: grid;
-	grid-gap: .5rem;
-	align-items: center;
-    width: 400px;
+    grid-gap: .5rem;
+    width: auto;
     background-color: #2a9d8f;
 }
 input,
@@ -72,7 +71,6 @@ input:valid {
 }
 #thanks{
     font-size: 2em;
-    font-style: bold;
 }
 #yes{
     margin: 0 15px;
