@@ -43,7 +43,7 @@
                         <div class="container1">
                         <fieldset>
                             <label>Full Name
-                           <input type="text" name="name" pattern="[A-Za-z]" required>
+                           <input type="text" name="name" pattern="[A-Za-z]" minlength= "5" maxlength= "25" required>
                             </label>
                         </fieldset>
                         <fieldset>
@@ -110,18 +110,21 @@
                         <fieldset>
                             <legend>Are You in Danger? <em>(Choose one)</em></legend>
                             <div class="selection">
-                                <label for="yes"><input type="radio" id="yes" name="yes" value="yes" checked>Yes</label>
+                                <label for="yes"><input type="radio" id="yes" name="answer" value="yes" checked>Yes</label>
                             </div>
                             <div class="selection">
-                                <label for="no"><input type="radio" id="no" name="no" value="no"> No</label>
+                                <label for="no"><input type="radio" id="no" name="answer" value="no"> No</label>
                             </div>
                             <div class="selection">
-                                <label for="maybe"><input type="radio" id="maybe" name="maybe" value="maybe">Maybe</label>
+                                <label for="maybe"><input type="radio" id="maybe" name="answer" value="maybe">Maybe</label>
                             </div>
                             <div class="container1">
                                 <fieldset>
                                     <label for="additional">Additional Information or Comments</label>
+                                    <form action="/action_page.php"></form>
+                                    <textarea name="message" rows="10" cols="30"></textarea>
                                 </fieldset>
+                                <input type="submit" value="Submit">
                             </div>
                         </div> 
                         </fieldset>
