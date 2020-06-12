@@ -56,7 +56,7 @@ input:valid {
     flex-direction: column;
     background-color: #2a9d8f;
     border: 1px solid #264653; 
-    color: #white;   
+    color: white;   
     box-shadow: 0 0 10px #111;
 }
 .flexly {
@@ -75,7 +75,7 @@ input:valid {
     margin: 0 15px;
     font-size: 1em;
 }
-#storm-type{
+#storm{
     margin: 0 15px;
     font-size: 1em;
 }

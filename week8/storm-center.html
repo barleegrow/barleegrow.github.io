@@ -41,7 +41,7 @@
                         </div>
             <fieldset class="container1">
                 <legend>Personal Information</legend>
-                 <label for="name"></label>Full Name (required)
+                 <label for="name">Full Name (required)
                     <input type="text" id= "name" name="fullName" pattern="^[a-zA-Z " required minlength="5" oninput="submit">
                  </label>
                         
@@ -62,7 +62,7 @@
                                 <input type="date" id=theDate name="date"></label>
                             <label for="storm-type">Storm Type: 
                                 <input id="storm-type" name="type" list="storm-type"></label>
-                            <datalist id="storm-type">
+                            <datalist id="storm">
                             <option value="Flash Flood">
                             <option value="Hail">
                             <option value="Hurricane">
@@ -101,7 +101,7 @@
                                 <label for="maybe"><input type="radio" id="maybe" name="answer" value="maybe">Maybe</label>
                         <fieldset class="container1">
                                     <label for="additional">Additional Information or Comments</label>
-                                    <textarea id="additional" name="message" rows="10" cols="30"></textarea>
+                                    <textarea id="additional" name="message" rows="10" cols="50"></textarea>
                                 <input name="submit" id="submit" value="Tell Us About It">
                         </fieldset>
                     </form>
