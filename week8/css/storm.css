@@ -22,6 +22,7 @@ fieldset {
 	background-color: #264653;
     border-radius: 5px;
     color: white;
+    text-align: left;
 }
 fieldset label{
     display: flex;
@@ -30,7 +31,9 @@ fieldset label{
 }
 legend {
     font-family: Poppins, sans-serif;
-    font-weight: 1.25em;
+    font-weight: 1.5em;
+    padding: 1.5em;
+    text-align: center;
 }
 
 input[type="button"] {
@@ -49,7 +52,12 @@ input:valid {
 	color: #000;
 }
 .container1 {
+    display: flex;
+    flex-direction: column;
     background-color: #2a9d8f;
+    border: 1px solid #264653; 
+    color: #white;   
+    box-shadow: 0 0 10px #111;
 }
 .flexly {
 	display: flex;

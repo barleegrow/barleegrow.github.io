@@ -42,7 +42,7 @@
             <fieldset class="container1">
                 <legend>Personal Information</legend>
                  <label for="name"></label>Full Name (required)
-                    <input type="text" id= "name" name="fullName" pattern="^[a-zA-Z\s\. \-]{5,}$" required minlength="5">
+                    <input type="text" id= "name" name="fullName" pattern="^[a-zA-Z " required minlength="5" oninput="submit">
                  </label>
                         
                  <label for="email">Email:
@@ -89,7 +89,7 @@
                                     <option value="10">
                                   </datalist>                       
                             <label for="region">Storm Region: 
-                                <input name="place" id="region" list="region"></label>
+                                <input name="place" id="region"></label>
                             <datalist id="region">
                             <option value="Preston">
                             <option value="Soda Springs">
