@@ -19,7 +19,7 @@
             <picture>
             <img src="images/sportweather-1.jpg" alt="logo">
         </picture>
-                  <h1>SportWeather</h1><br>
+                  <h1>SportWeather</h1>
           <div class="motto">"Not scared just prepared."</div>
         </header>
         <nav>
@@ -34,39 +34,34 @@
         </ul>
         </nav>
     <main>
-            <div class="container">
+            <fieldset class="container">
                     <form method="post" action="thanks.html">
                         <div id="stormcenter">
                             <h2>Real Time Storm Report</h2>
                         </div>
-                        <div class="container1">
-                        <fieldset>
-                            <label>Full Name (required)
-                           <input type="text" name="name" pattern="[Aa-Zz-z]" minlength= "5" maxlength= "25" required>
-                            </label>
-                        </fieldset>
-                        <fieldset>
-                            <label>Email:
-                            <input type="email" name="email" placeholder="user@email.org"></label><br>
-                        </fieldset>
-                        <fieldset>
-                            <label>Phone: 
-                            <input type="tel" name="phone" placeholder="###-###-####">
-                            </label><br>
-                        </fieldset>
-                        <fieldset>
-                                <label for="num">Zip Code:
-                                <input type="number" id="num" name="num" pattern="(\d{5}([\-]\d{4})?)" autocomplete="postal-code"></label><br>
-                        </fieldset>
-                            </div>
-                    <div class="container1">
-                        <fieldset>
+            <fieldset class="container1">
+                <legend>Personal Information</legend>
+                 <label for="name"></label>Full Name (required)
+                    <input type="text" id= "name" name="fullName" pattern="^[a-zA-Z\s\. \-]{5,}$" required minlength="5">
+                 </label>
+                        
+                 <label for="email">Email:
+                    <input type="email" id="email" name="email" placeholder="user@email.com"></label>
+                        
+                 <label for="phone">Phone: 
+                 <input type="tel" id="phone" name="phone" placeholder="###-###-####">
+                 </label>
+                        
+                 <label for="num">Zip Code:
+                 <input type="number" id="num" name="zip" pattern="(\d{5}([\-]\d{4})?)" autocomplete="postal-code"></label>
+                 </fieldset>
+                        
+                    <fieldset class="container1">
+                        <legend>Storm Information</legend>
                             <label for="theDate">Date of Storm:
-                            <input type="date" name="theDate"></label><br>
-                        </fieldset>
-                        <fieldset>
+                                <input type="date" id=theDate name="date"></label>
                             <label for="storm-type">Storm Type: 
-                            <input name="storm-type" list="storm-type"></label>
+                                <input id="storm-type" name="type" list="storm-type"></label>
                             <datalist id="storm-type">
                             <option value="Flash Flood">
                             <option value="Hail">
@@ -75,10 +70,8 @@
                             <option value="Tornado">
                             <option value="Blizzard">
                             </datalist> 
-                        </fieldset>
-                        <fieldset>
                             <label class="flexly" for="rating">Severity Rating: &nbsp;&nbsp;&nbsp;
-                            <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" 
+                                <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" 
                                 oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                             <span id="ratingvalue">5</span>
                             </label>
@@ -94,40 +87,24 @@
                                     <option value="8">
                                     <option value="9">
                                     <option value="10">
-                                  </datalist>
-                        </fieldset>
-                        <fieldset>
+                                  </datalist>                       
                             <label for="region">Storm Region: 
-                            <input name="region" list="region"></label>
+                                <input name="place" id="region" list="region"></label>
                             <datalist id="region">
                             <option value="Preston">
                             <option value="Soda Springs">
                             <option value="Fish Haven">
                             </datalist> 
-                            </fieldset>      
-                        <fieldset>
                             <legend>Are You in Danger? <em>(Choose one)</em></legend>
-                            <div class="selection">
                                 <label for="yes"><input type="radio" id="yes" name="answer" value="yes" checked>Yes</label>
-                            </div>
-                            <div class="selection">
                                 <label for="no"><input type="radio" id="no" name="answer" value="no"> No</label>
-                            </div>
-                            <div class="selection">
                                 <label for="maybe"><input type="radio" id="maybe" name="answer" value="maybe">Maybe</label>
-                            </div>
-                            <div class="container1">
-                                <fieldset>
+                        <fieldset class="container1">
                                     <label for="additional">Additional Information or Comments</label>
-                                    <textarea name="message" rows="10" cols="30"></textarea>
-                                </fieldset>
-                                <input type="submit" value="Submit">
-                            </div>
-                        </div> 
+                                    <textarea id="additional" name="message" rows="10" cols="30"></textarea>
+                                <input name="submit" id="submit" value="Tell Us About It">
                         </fieldset>
-                
                     </form>
-                
                 </div>
     </main>
     <footer>
@@ -140,5 +117,6 @@
             <script src="js/current_date.js"></script>  
             <script src="js/hamburger.js"></script> 
             <script src="js/external.js"></script>
+            <script src="storm.js"></script>
     </body>
     </html>

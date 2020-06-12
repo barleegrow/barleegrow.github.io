@@ -7,12 +7,6 @@ body {
 em {
 	font-size: smaller;
 }
-.container1 {
-	display: grid;
-    grid-gap: .5rem;
-    width: 400px;
-    background-color: #2a9d8f;
-}
 input,
 button,
 select,
@@ -29,8 +23,14 @@ fieldset {
     border-radius: 5px;
     color: white;
 }
+fieldset label{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
 legend {
-	font-family: Poppins, sans-serif;
+    font-family: Poppins, sans-serif;
+    font-weight: 1.25em;
 }
 
 input[type="button"] {
@@ -48,7 +48,9 @@ input:valid {
 	background-color: #fff;
 	color: #000;
 }
-
+.container1 {
+    background-color: #2a9d8f;
+}
 .flexly {
 	display: flex;
 	align-items: center;
@@ -68,6 +70,11 @@ input:valid {
 #storm-type{
     margin: 0 15px;
     font-size: 1em;
+}
+#submit{
+    background-color: #264653;
+    border-radius: 5px;
+    color: white;  
 }
 #thanks{
     font-size: 2em;
