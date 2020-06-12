@@ -60,9 +60,10 @@
                         <legend>Storm Information</legend>
                             <label for="theDate">Date of Storm:
                                 <input type="date" id=theDate name="date"></label>
-                            <label for="storm">Storm Type: 
-                                <input id="storm" name="type" list="storm-type"></label>
+                            <label for="storm-type">Storm Type: 
+                                <input id="storm-type" name="type" list="storm-type"></label>
                             <datalist id="storm">
+                                    <option value="" Choose One></option>
                             <option value="Flash Flood">
                             <option value="Hail">
                             <option value="Hurricane">
@@ -90,8 +91,8 @@
                                   </datalist>                       
                             <label for="region">Storm Region: 
                                 <input name="place" id="region"></label>
-                            <datalist id="region">
-                                    <option value=""Please Select></option>
+                            <datalist id="area">
+                                    <option value="" Choose One></option>
                             <option value="Preston"></option>
                             <option value="Soda Springs"></option>
                             <option value="Fish Haven"></option>
