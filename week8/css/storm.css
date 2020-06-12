@@ -11,8 +11,8 @@ input,
 button,
 select,
 textarea {
-	padding: 0.5rem;
-	margin-bottom: .25rem;
+	padding: 1rem;
+	margin-bottom: .5rem;
 }
 
 input:focus {
@@ -23,16 +23,19 @@ fieldset {
     border-radius: 5px;
     color: white;
     text-align: left;
+    margin: 2rem 0;
 }
 fieldset label{
     display: flex;
     flex-direction: column;
     text-align: left;
 }
-legend {
+form legend {
     font-family: Poppins, sans-serif;
-    font-weight: 1.5em;
-    padding: 1.5em;
+    font-size: 1.5rem;
+    font-style: bold;
+    margin 0 1 rem;
+    padding: 0 .5rem;
     text-align: center;
 }
 
