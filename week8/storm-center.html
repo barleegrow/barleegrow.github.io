@@ -42,7 +42,7 @@
             <fieldset class="container1">
                 <legend>Personal Information</legend>
                  <label for="name">Full Name (required)
-                    <input type="text" id= "name" name="fullName" pattern="^[a-zA-Z " required minlength="5" oninput="submit">
+                    <input type="text" id= "name" name="fullName" pattern="[a-zA-Z ]" required minlength="5" oninput="submit">
                  </label>
                         
                  <label for="email">Email:
@@ -95,10 +95,11 @@
                             <option value="Soda Springs">
                             <option value="Fish Haven">
                             </datalist> 
-                            <legend>Are You in Danger? <em>(Choose one)</em></legend>
+                            <label>Are You in Danger? <em>(Choose one)</em></label>
                                 <label for="yes"><input type="radio" id="yes" name="answer" value="yes" checked>Yes</label>
                                 <label for="no"><input type="radio" id="no" name="answer" value="no"> No</label>
                                 <label for="maybe"><input type="radio" id="maybe" name="answer" value="maybe">Maybe</label>
+                                </fieldset>
                         <fieldset class="container1">
                                     <label for="additional">Additional Information or Comments</label>
                                     <textarea id="additional" name="message" rows="10" cols="50"></textarea>
