@@ -63,12 +63,16 @@ input:valid {
 }
 .flexly {
 	display: flex;
-	align-items: center;
+    align-items: center;
+    color: white;
 }
 .selection {
     display: flex;
     align-items: center;
    margin: 0 15px;
+}
+#rating {
+	margin: 0 15px;
 }
 #ratingvalue {
 	margin: 0 15px;
@@ -81,6 +85,7 @@ input:valid {
     margin: 0 15px;
     font-size: 1em;
 }
+
 #submit{
     background-color: #264653;
     border-radius: 5px;

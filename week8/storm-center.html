@@ -46,10 +46,10 @@
                  </label>
                         
                  <label for="email">Email:
-                    <input type="text" id="email" name="email" placeholder="user@email.com"></label>
+                    <input type="text" id="email" name="email" placeholder="user@email.com" required oninput="submit"></label>
                         
                  <label for="phone">Phone: 
-                 <input type="tel" id="phone" name="phone" placeholder="1234567890">
+                 <input type="tel" id="phone" name="phone" placeholder="1234567890" required oninput="submit">
                  </label>
                         
                  <label for="num">Zip Code:
@@ -61,26 +61,27 @@
                             <label for="theDate">Date of Storm:
                                 <input type="date" id=theDate name="date"></label>
                             <label for="storm-type">Storm Type: 
-                                <input id="storm-type" name="type" list="storm-type"></label>
-                            <datalist id="storm">
-                            <option value="Flash Flood">
-                            <option value="Hail">
-                            <option value="Hurricane">
-                            <option value="Thunderstorm">
-                            <option value="Tornado">
-                            <option value="Blizzard">
-                            </datalist> 
-                            <label class="flexly" for="rating">Severity Rating: &nbsp;&nbsp;&nbsp;
-                                <input type="range" id="rating" min="1" max="10" step="1" list="tickmarks" 
+                                <select id="storm-type" name="type" list="storm-type">
+                            <option value="">Choose One</option>
+                            <option value="Flash Flood">Flash Flood</option>
+                            <option value="Hail">Hail</option>
+                            <option value="Hurricane">Hurricane</option>
+                            <option value="Thunderstorm">Thunderstorm</option>
+                            <option value="Tornado">Tornado</option>
+                            <option value="Blizzard">Blizzard</option>
+                            </datalist> <br>
+                
+                            <label class="flexly" for="rating">Severity Rating:
+                                <input type="range" id="rating" min="1" max="10" step="1" 
                                 oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                            <span id="ratingvalue">5</span>
-                            </label>
-                                      
-                            <label for="region">Storm Region: </label>
-                                <select name="place" id="place">
+                            <span id="ratingvalue">Severity Rating</span>
+                            </label>   <br>  
+                            <label for="place">Storm Region: </label>
+                                <select name="region" id="place">
+                            <option value="">Choose One</option>
                             <option value="Preston">Preston</option>
                             <option value="Soda Springs">Soda Springs</option>
-                            <option value="Fish Haven">Fish Haven</option> 
+                            <option value="Fish Haven">Fish Haven</option> <br>
                             <label>Are You in Danger? <em>(Choose one)</em></label>
                                 <label for="yes"><input type="radio" id="yes" name="answer" value="yes" checked>Yes</label>
                                 <label for="no"><input type="radio" id="no" name="answer" value="no"> No</label>
