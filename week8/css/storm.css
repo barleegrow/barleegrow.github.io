@@ -47,7 +47,7 @@ input[type="button"]:hover {
 
 input:invalid {
 	background-color: #ddf;
-	color: #000;
+    color: #000;
 }
 input:valid {
 	background-color: #fff;
@@ -79,13 +79,11 @@ input:valid {
 }
 #place{
     margin: 0 15px;
-    font-size: 1em;
 }
 #storm{
     margin: 0 15px;
     font-size: 1em;
 }
-
 #submit{
     background-color: #264653;
     border-radius: 5px;
