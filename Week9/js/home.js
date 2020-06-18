@@ -6,10 +6,10 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const prophets = jsonObject['towndata'];
+    const towns = jsonObject['towns'];
 
     //Create elements and content
-    for (let i = 0; i < towndata.length; i++ ) {
+    for (let i = 0; i < towns.length; i++ ) {
         let card = document.createElement('section');
         let photo = document.createElement('img');
         let name = document.createElement('h1');
@@ -19,12 +19,12 @@ fetch(requestURL)
         let rainfall = document.createElement('p');
 
         //Create content
-        photo.setAttribute('src', 'images/' + towns[i].photo)
+        photo.setAttribute('src', 'towns/' + towns[i].photo)
         photo.setAttribute('alt', towns[i].name)
         name.textContent = towns[i].name;
         motto.textContent = '\"' + towns[i].motto +'\"';
         founded.textContent = 'Founded: ' + towns[i].yearFounded;
-        polulation.textContent = 'Population: ' + towns[i].currentPopulation;
+        population.textContent = 'Population: ' + towns[i].currentPopulation;
         founded.textContent = 'Average Rainfall: ' + towns[i].averageRainfall;
         
 
