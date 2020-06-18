@@ -35,6 +35,6 @@ fetch(requestURL)
         card.appendChild(founded);
         card.appendChild(population);
         card.appendChild(rainfall);
-        document.querySelector('div.cards').appendChild(card);
+        document.querySelector('towns').appendChild(card);
     }
   });
