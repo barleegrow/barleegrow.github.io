@@ -23,15 +23,14 @@ main{
     padding: 15px;
     background-color: #d5d5d5;
 }
+p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 section{
     background-color: #a597ab;
     border: solid 2px #56256b;
     padding-bottom: 15px;
-}
-p{
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 .cards{
     display: grid;

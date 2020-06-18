@@ -2,65 +2,72 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>BStacey WDD 230</title>
-    <meta name="description" content="BStacey Assignment week 03 WDD 230 BYUI">
+    <meta name="description" content="BStacey Assignment Portal WDD 230 BYU-I">
+    <link rel="icon" href="/images/faviconuse.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-    <link href="/week3/css/small.css" rel="stylesheet">
-    <link href="/week3/css/medium.css" rel="stylesheet">
-    <link href="/week3/css/large.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="/week9/css/small.css" rel="stylesheet">
+    <link href="/week9/css/medium.css" rel="stylesheet">
+    <link href="/week9/css/large.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,900;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-            <h1>Sport Weather</h1>
-            <img class="logo" src="/week3/images/SportsWeather-1.jpg" alt="logo">
-    </header>
-    <nav>
-        <ul>
-            <li><a href= "/week3/index.html" class= "active">Home</a></li>
-            <li><a href= "/week3/target-audience.html">Target Audience</a></li>
-            <li><a href= "/week3/color-scheme.html">Color Scheme</a></li>
-            <li><a href= "/week3/typography.html" >Typography</a></li>
-        </ul>
-    </nav>
-<main>
-    <section>
-        <h2> Welcome to SportWeather.org</h2>
-        <p>This is the site plan for SportWeather.org</p>    
-    </section>
-    <section>
-        <h2>Domain Name</h2>
-        <p>On Google Domains I was able to find SportWeather.org for $12 a year. 
-        SportWeather.com was $3900 plus $14 a year</p>
-    </section>
-    <section>
-        <h2>Site Purpose</h2>
-        <p>The SportWeather site is specifically for people who enjoy outdoor sports.
-            It is a place where instructors, coaches, individuals, and teams can go to 
-           find weather information specific to their training needs. 
-           SportWeather will offer:</p>
-           <ul>
-               <li>How the weather will affect training</li>
-               <li>What the weather will be like on a given day</li>
-               <li>Optimal training times</li>
-               <li>Weather for specific activities</li>
-           </ul>
 
-           <section>
-            <h2>SportWeather Logo</h2>
-                <img class="logo" src="images/SportsWeather-1.jpg" alt="logo">
-           </section>
+        <header>
+            <picture>
+            <img src="images/sportweather-1.jpg" alt="logo">
+        </picture>
+                  <h1>SportWeather</h1><br>
+          <div class="motto">"Not scared just prepared."</div>
+        </header>
+        <nav>
+                <ul class="navigation">
+                    
+                        <li><a class="ham" onclick="toggleMenu()" href="#">&#9776; Menu</a></li>    
+                        <li><a href="/week9/index.html" class="active">Home</a></li>
+                    <li><a href="/week6/preston_6.html" >Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="/week9/storm-center.html">Storm Center</a></li>
+                    <li><a href="/week9/gallery-7..html">Gallery</a></li>
+                </ul>
+                </nav>
+    <main>
+        <div class="towns"></div>
         
-    </section>
-</main>
-    
-<footer>
-        <span id="year"></span> | Barbara Stacey | Georgia | <a id="BYU-I" href="https://www.byui.edu/online">BYUI Online Learning</a><br>
-         Last Updated: <span id="date"></span>      
-    </footer>
-    
-    <script src="/week2/js/site.js"></script>   
+        <div class="article">
+            <img class="articleimg" src="images/trailrunning2.jpg" alt="hiking">
+            <h2>Outdoor Fitness Can Make You Happier</h2>
+            <p>Bea Smiley</p><br>
+            <p>Studies show that exercise can make you happier. University of Vermont researchers have found
+                that just 20 minutes of exercise can last 12 hours. Exercise has the greatest effect on our bad moods.
+                It increases feel-good brain chemicals, reduces stress hormones, and has been shown to remedy both
+                depression and anxiety. 
+            </p><br>
+            <p>Compared to indoor workouts, outdoor workouts makes us feel more energetic and less tense. The effects
+                are multiplied when done in the natural environment rather than in an urban setting. Studies show that
+                physical activity in natural areas gives your brain and body a double dose of feel-good chemicals and 
+                helps you cope with stress in more positive ways.
+            </p><br>
+            <p>This part of the country has numerous opportunities for outdoor recreation. 
+                Check our weather forecast so that you can be aware of the best times and days to get out there and boost
+                your fitness while you improve your mood! 
+            </p>
+        </div>
+            
+            
+    </main>
+    <footer>
+            <p id=footer-text>&copy; 2020
+            | Barbara Stacey | Georgia |
+            <a id="BYU-I" href="https://www.byui.edu/online">BYUI Online Learning</a>
+            <span id="today"></span>  
+            </p>       
+            </footer>
+            <script src="js/current_date.js"></script>  
+            <script src="js/hamburger.js"></script> 
+            <script src="js/home.js"></script>
     </body>
     </html>
