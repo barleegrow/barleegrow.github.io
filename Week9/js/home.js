@@ -36,11 +36,11 @@ fetch(requestURL)
         card.appendChild(photo);
 //put elements in text section
         text.appendChild(name, motto, founded, population, rainfall)
-       // card.appendChild(name);
-      //  card.appendChild(motto);
-      //  card.appendChild(founded);
-      //  card.appendChild(population);
-     //   card.appendChild(rainfall);
+        card.appendChild(name);
+        card.appendChild(motto);
+        card.appendChild(founded);
+        card.appendChild(population);
+        card.appendChild(rainfall);
         document.querySelector('.towns').appendChild(card);
         }
     }
