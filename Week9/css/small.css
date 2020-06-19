@@ -248,5 +248,5 @@ figcaption{
     text-align: center;
 }
 #wireframes{
-    display
+    display: flex;
 }
