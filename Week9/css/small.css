@@ -127,15 +127,15 @@ p {
     color: #264653;   
     box-shadow: 0 0 10px #111;
 }
-/*.contentbox{
+.contentbox{
     display: flex;
     flex-direction: column;
     background-color:#e9c46a;
     border: 1px solid #264653; 
     color: #264653;   
     box-shadow: 0 0 10px #111;
-}*/
-figcaption{
+}
+.figcaption{
     font-size: smaller;
 }
 .fiveday{
