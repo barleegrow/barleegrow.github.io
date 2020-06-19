@@ -211,6 +211,8 @@ figcaption{
 }
 .towns{
     display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
 }
 #footer-text{
     color: white;
@@ -244,4 +246,7 @@ figcaption{
     margin-top: 10px;
     color: white;
     text-align: center;
+}
+#wireframes{
+    display
 }

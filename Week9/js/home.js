@@ -10,6 +10,7 @@ fetch(requestURL)
 
     //Create elements and content
     for (let i = 0; i < towns.length; i++ ) {
+        if (towns[i].name == "Preston" || towns[i].name == "Soda Springs" || towns[i].name == "Fish Haven"){
         let card = document.createElement('section');
         let photo = document.createElement('img');
         let name = document.createElement('h1');
@@ -35,6 +36,6 @@ fetch(requestURL)
         card.appendChild(founded);
         card.appendChild(population);
         card.appendChild(rainfall);
-        document.querySelector('towns').appendChild(card);
+        document.querySelector('.towns').appendChild(card);
     }
   });
