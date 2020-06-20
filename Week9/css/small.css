@@ -93,6 +93,11 @@ p {
     margin: 0px;
     color: #264653;
 }
+section{
+    background-color: #2a9d8f;
+    border: solid 2px #264653;
+    padding-bottom: 15px;
+}
 .active {
     background-color: #2a9d8f;
     position:relative;
@@ -111,13 +116,13 @@ p {
     position: relative;
     border-radius: 15px;
 }
-.cards {
+.card {
     margin-top: 50px;
     margin-bottom: 70px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 50px;
+    gap: 50px;        
 }
 .container{
     display: flex;
@@ -210,9 +215,17 @@ p {
 	opacity: .9;
 }
 .towns{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 600px;
+    margin: .5rem auto;
+    border:1px solid #bbb;
+    background-color: #eee;
 }
 #footer-text{
     color: white;

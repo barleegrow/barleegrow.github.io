@@ -14,7 +14,7 @@ fetch(requestURL)
  //Create section image
         let card = document.createElement('section');
         let photo = document.createElement('img');
-//create text section
+//create text section 
         let text = document.createElement('text');
         let name = document.createElement('h1');
         let motto = document.createElement('h4');
@@ -35,13 +35,14 @@ fetch(requestURL)
  //Put elements in image section
         card.appendChild(photo);
 //put elements in text section
-        text.appendChild(name, motto, founded, population, rainfall)
+        text.appendChild(text)
         card.appendChild(name);
         card.appendChild(motto);
         card.appendChild(founded);
         card.appendChild(population);
         card.appendChild(rainfall);
         document.querySelector('.towns').appendChild(card);
+        document.querySelector('.text').appendChild(text)
         }
     }
   });
