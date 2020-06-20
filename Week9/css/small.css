@@ -94,13 +94,8 @@ p {
     margin: 0px;
     color: #264653;
 }
-towns:section {
-    background-color: #2a9d8f;
-    border: solid 2px #264653;
-}
-
 section{
-    display: flex;
+    /* display: flex; */
     gap: 15px;
     margin: .5rem auto;
     background-color: #2a9d8f;
