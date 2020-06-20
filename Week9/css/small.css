@@ -37,6 +37,7 @@ h1 {text-align: center;
     font-size:2.5rem;
     text-shadow:3px 3px 5px #264653;
     margin: 0;
+    padding: .5rem;
     }
 h2 { font-size: 2rem;
     margin: 0;
@@ -51,7 +52,8 @@ h4{
     font-size: 1rem;
     margin: 0;
     text-align: center;
-    text-decoration: italic;
+    font-style: italic;
+    padding: .5rem;
 }
 header img{
     border-radius: 20px;
@@ -218,15 +220,18 @@ section{
     display: flex;
     flex-direction: row;
 }
+.towns img{
+    padding: 15px;
+}
+.towns p{
+    text-align: center;
+    color: black;
+}
 .text{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
-    max-width: 600px;
-    margin: .5rem auto;
-    border:1px solid #bbb;
-    background-color: #eee;
 }
+
 #footer-text{
     color: white;
     text-align: center;
