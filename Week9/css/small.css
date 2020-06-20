@@ -225,6 +225,7 @@ section{
 }*/
 .towns img{
     padding: 15px;
+    box-shadow: 5px 10px #000; 
 }
 .towns p{
     text-align: center;

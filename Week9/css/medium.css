@@ -7,25 +7,7 @@ header img{
 nav button {
     display: none
 }
-.towns {
-    display: grid;
 
-}
-.towns section:nth-child(1) {
-    display: flex;
-    flex-direction: row;
-    grid-row: 3;
-}
-.towns section:nth-child(2) {
-    display: flex;
-    flex-direction: row;
-    grid-row: 1;
-}
-.towns section:nth-child(3) {
-    display: flex;
-    flex-direction: row-reverse;
-    grid-row: 2;
-}
 .cell{
     display: flex;
     flex-direction:column;
@@ -94,14 +76,23 @@ nav button {
     font-size: larger;
     margin-left: 17px;
 } 
-.text:nth-child(1){
-    flex-direction: row;
+.towns {
+    display: grid;
 }
-.text:nth-child(2){
+.towns section:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    grid-row: 3;
+}
+.towns section:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    grid-row: 1;
+}
+.towns section:nth-child(3) {
+    display: flex;
     flex-direction: row-reverse;
-}
-.text:nth-child(3){
-    flex-direction: row;
+    grid-row: 2;
 }
 .wicon{ 
     border-radius: 40px;
