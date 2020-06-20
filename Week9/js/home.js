@@ -15,7 +15,7 @@ fetch(requestURL)
         let card = document.createElement('section');
         let photo = document.createElement('img');
 //create text section 
-        let text = document.createElement('text');
+        let text = document.createElement('div');
         let name = document.createElement('h1');
         let motto = document.createElement('h4');
         let founded = document.createElement('p');
@@ -29,20 +29,19 @@ fetch(requestURL)
         motto.textContent = '\"' + towns[i].motto +'\"';
         founded.textContent = 'Founded: ' + towns[i].yearFounded;
         population.textContent = 'Population: ' + towns[i].currentPopulation;
-        founded.textContent = 'Average Rainfall: ' + towns[i].averageRainfall;
+        rainfall.textContent = 'Average Rainfall: ' + towns[i].averageRainfall;
         
 
  //Put elements in image section
         card.appendChild(photo);
 //put elements in text section
-        text.appendChild(text)
-        card.appendChild(name);
-        card.appendChild(motto);
-        card.appendChild(founded);
-        card.appendChild(population);
-        card.appendChild(rainfall);
+        text.appendChild(name);
+        text.appendChild(motto);
+        text.appendChild(founded);
+        text.appendChild(population);
+        text.appendChild(rainfall);
+        card.appendChild(text)
         document.querySelector('.towns').appendChild(card);
-        document.querySelector('.text').appendChild(text)
         }
     }
   });
