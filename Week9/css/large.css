@@ -7,6 +7,9 @@ header img{
  nav button {
      display: none
     }
+.card {
+    grid-template-columns: 1fr 1fr 1fr;
+}
     .gallery{
         display: grid ;
         grid-template-columns: 1fr 1fr 1fr;

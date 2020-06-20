@@ -5,7 +5,6 @@ a:link {
 a:visited {
     color: #f4a261;
 }
-
 body{
     font-family: 'Poppins', sans-serif;
     background-color: white;
@@ -96,6 +95,10 @@ p {
     color: #264653;
 }
 section{
+    display: flex;
+    gap: 15px;
+    max-width: 600px;
+    margin: .5rem auto;
     background-color: #2a9d8f;
     border: solid 2px #264653;
     padding-bottom: 15px;
