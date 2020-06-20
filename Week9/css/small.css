@@ -231,15 +231,11 @@ p {
 #pancakes{
     display: block;
     text-align: center;
-}
-#panckaes{
-    display: none;
-    background-color: white;
+    background-color: white
 }
 #preston-map{
     width: 25%;
     border-radius: 5px;
-
 }    
 #today{
     display: block;
@@ -249,4 +245,6 @@ p {
 }
 #wireframes{
     display: flex;
+    color: #000000;
+    text-align: center;
 }
