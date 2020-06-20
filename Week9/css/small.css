@@ -224,6 +224,10 @@ section{
     text-align: center;
     color: black;
 }
+.towns section{
+    background-color: #2a9d8f;
+    border: solid 2px #264653;
+}
 .text{
     display: flex;
 }
