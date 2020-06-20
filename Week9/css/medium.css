@@ -7,17 +7,24 @@ header img{
 nav button {
     display: none
 }
-.cards section :nth-child(1) {
+.towns {
+    display: grid;
+
+}
+.towns section:nth-child(1) {
     display: flex;
     flex-direction: row;
+    grid-row: 3;
 }
-.cards section :nth-child(2) {
+.towns section:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    grid-row: 1;
+}
+.towns section:nth-child(3) {
     display: flex;
     flex-direction: row-reverse;
-}
-.cards section :nth-child(3) {
-    display: flex;
-    flex-direction: row;
+    grid-row: 2;
 }
 .cell{
     display: flex;

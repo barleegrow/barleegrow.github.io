@@ -219,10 +219,10 @@ section{
     box-shadow: 0 0 15px #111;
 	opacity: .9;
 }
-.towns{
+/*.towns{
     display: flex;
     flex-direction: row;
-}
+}*/
 .towns img{
     padding: 15px;
 }
