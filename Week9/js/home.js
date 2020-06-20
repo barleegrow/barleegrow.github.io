@@ -23,7 +23,7 @@ fetch(requestURL)
         let rainfall = document.createElement('p');
 
 //Create content
-        photo.setAttribute('src', 'towns/' + towns[i].photo)
+        photo.setAttribute('src', 'towns' + towns[i].photo)
         photo.setAttribute('alt', towns[i].name)
         name.textContent = towns[i].name;
         motto.textContent = '\"' + towns[i].motto +'\"';
