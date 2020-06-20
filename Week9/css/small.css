@@ -97,7 +97,6 @@ p {
 section{
     display: flex;
     gap: 15px;
-    max-width: 600px;
     margin: .5rem auto;
     background-color: #2a9d8f;
     border: solid 2px #264653;
@@ -106,7 +105,6 @@ section{
 .active {
     background-color: #2a9d8f;
     position:relative;
-
 }
 .article{
     display: block;
@@ -219,13 +217,8 @@ section{
     box-shadow: 0 0 15px #111;
 	opacity: .9;
 }
-/*.towns{
-    display: flex;
-    flex-direction: row;
-}*/
 .towns img{
-    padding: 15px;
-    box-shadow: 5px 10px #000; 
+    padding: 15px; 
 }
 .towns p{
     text-align: center;
@@ -233,9 +226,7 @@ section{
 }
 .text{
     display: flex;
-    flex-direction: row;
 }
-
 #footer-text{
     color: white;
     text-align: center;

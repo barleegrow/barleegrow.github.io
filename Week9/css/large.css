@@ -7,9 +7,7 @@ header img{
  nav button {
      display: none
     }
-.card {
-    grid-template-columns: 1fr 1fr 1fr;
-}
+
     .gallery{
         display: grid ;
         grid-template-columns: 1fr 1fr 1fr;
@@ -38,6 +36,8 @@ header img{
 .navigation li:first-child {
     display: none;
 }
+.towns {
+    grid-template-columns: 1fr 1fr 1fr;
 }
 main {
         background-color: white;
