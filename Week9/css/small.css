@@ -96,6 +96,7 @@ p {
 }
 section{
     /* display: flex; */
+    border-radius: 10px;
     gap: 15px;
     margin: .5rem auto;
     background-color: #2a9d8f;
