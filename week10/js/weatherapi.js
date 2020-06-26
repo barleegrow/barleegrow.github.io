@@ -1,4 +1,5 @@
  /*Preston*/
+ 
  const apiURL = 'http://api.openweathermap.org/data/2.5/weather?id=5604473' + id + '&units=imperial&APPID=0b991a27171c24f0a1099f22e88cd0eb'
       
         fetch(apiURL)
@@ -38,8 +39,8 @@
   document.getElementById('windchill').innerHTML = windchill;
 }());
   
-/*5 day forecast
-function buildForecast(id)*/
+/*5 day forecast*/
+
 const apiURL = 'https:api.openweathermap.org/data/2.5/forecast?id=5604473' + id + '&units=imperial&APPID=0b991a27171c24f0a1099f22e88cd0eb'
     fetch(apiURL)
     .then((response) => response.json())
