@@ -13,10 +13,10 @@
    const humid =  document.getElementById('humid')
    const current = document.getElementById('currently')
 
-  current.textContent = jsObject.main.description;
+  current.textContent = jsObject.weather[0].description;
   temp.textContent = jsObject.main.temp;
   wind.textContent = jsObject.main.wind;
-  humid.textContent = jsObject.main.humidity;
+  humid.textContent = jsObject.main.humidity + %;
     
   });
   
