@@ -50,7 +50,7 @@ const apiURL2 = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&uni
       const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 
       let day = 0;
-      let d= newDate(forecast.dt_txt);
+      let d= new Date(forecast.dt_txt);
     document.getElementById('fiveday${day+1}').textContent = forecast.main.temp; day++;
     document.getElementById('col-head${day+1}').textContent = weekdays[d.getDay()];
     day++;
