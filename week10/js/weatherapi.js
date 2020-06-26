@@ -42,7 +42,7 @@
 /*5 day forecast*/
 
 const apiURL2 = 'https:api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=0b991a27171c24f0a1099f22e88cd0eb';
-    fetch(apiURL)
+    fetch(apiURL2)
     .then((response) => response.json())
     .then((jsObject) => {
       console.log(jsObject);
