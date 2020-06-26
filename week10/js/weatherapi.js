@@ -43,9 +43,9 @@ const apiURL2 = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&uni
     .then((response) => response.json())
     .then((jsObject) => {
       console.log(jsObject);
-      const fivedayforecast = jsObject.list.filter(x => x.dt_txt.includes ('18:00:00'));
+      const forecast = jsObject.list.filter(x => x.dt_txt.includes ('18:00:00'));
       
-      console.log(fivedayforecast)
+      console.log(forecast)
 
       const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 
