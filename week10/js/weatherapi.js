@@ -16,7 +16,7 @@
   current.textContent = jsObject.weather[0].description;
   temp.textContent = jsObject.main.temp;
   wind.textContent = jsObject.wind.speed;
-  humid.textContent = jsObject.main.humidity + %;
+  humid.textContent = jsObject.main.humidity + '%';
     
   });
   
