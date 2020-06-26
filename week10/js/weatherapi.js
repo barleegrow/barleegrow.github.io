@@ -7,15 +7,12 @@
   .then((jsObject) => {
     console.log(jsObject);
 
-    let description = town.weather[0].description;
-    let current = discription.charAt(0).toUpperCase() + discription.slice(1);
 
+   const temp = document.getElementById('temp')
+   const wind = document.getElementById('wind')
+   const humid =  document.getElementById('humid')
+   const current = document.getElementById('currently')
 
-   const temp = document.getElementById('temp').innerHTML = Temperature;
-   const wind = document.getElementById('wind').innerHTML = Windspeed;
-   const humid =  document.getElementById('humid').innerHTML = Humidity;
-
-  description.textContent = jsObject.main;
   current.textContent = jsObject.main.description;
   temp.textContent = jsObject.main.temp;
   wind.textContent = jsObject.main.wind;
