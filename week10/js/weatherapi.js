@@ -8,10 +8,10 @@
     console.log(jsObject);
 
 
-   const temp = document.getElementById('temp')
-   const wind = document.getElementById('wind')
-   const humid =  document.getElementById('humid')
-   const current = document.getElementById('currently')
+   const temp = document.getElementById('temp');
+   const wind = document.getElementById('wind');
+   const humid =  document.getElementById('humid');
+   const current = document.getElementById('currently');
 
   current.textContent = jsObject.weather[0].description;
   temp.textContent = jsObject.main.temp;
