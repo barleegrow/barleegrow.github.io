@@ -43,18 +43,21 @@ const apiURL2 = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&uni
     .then((response) => response.json())
     .then((jsObject) => {
       console.log(jsObject);
-      const forecast = jsObject.list.filter(x => x.dt_txt.includes ('18:00:00'));
+      const fivedayforecast = jsObject.list.filter(x => x.dt_txt.includes ('18:00:00'));
       
-      console.log(forecast)
+      console.log(fivedayforecast)
 
       const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 
       let day = 0;
-      let d= new Date(forecast.dt_txt);
-    document.getElementById('fiveday${day+1}').textContent = forecast.main.temp; day++;
-    document.getElementById('col-head${day+1}').textContent = weekdays[d.getDay()];
-    day++;
-    document.getElementById('wicon').textContent = weather.main.icon;
+fivedayforecast.forEach(forecast => {
+  
+  let d= new Date(forecast.dt_txt);
+  document.getElementById('fiveday' + (day + 1)).textContent = forecast.main.temp; 
+  document.getElementById('col-head' + (day + 1)).textContent = weekdays[d.getDay()];
+  document.getElementById('wicon').src = weather.main.icon;
+});
+
     
     
     });
