@@ -55,7 +55,7 @@ fivedayforecast.forEach(forecast => {
   let d= new Date(forecast.dt_txt);
   document.getElementById('data'+(day+1)).textContent = forecast.main.temp; 
   document.getElementById('col-head'+(day+1)).textContent = weekdays[d.getDay()];
-  document.getElementById('wicon'+(day+1)).src = forecast.weather[0].icon;
+  document.getElementById('wicon'+(day+1)).src = "http://openweathermap.org/img/wn/" + forecast.weather[0].icon + "10d@2x.png";
   day++;
 });
 
