@@ -53,7 +53,7 @@ const apiURL2 = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&uni
 fivedayforecast.forEach(forecast => {
   
   let d= new Date(forecast.dt_txt);
-  document.getElementById('data'+(day+1)).textContent = forecast.main.temp; 
+  document.getElementById('data'+(day+1)).textContent = Math.round (forecast.main.temp); 
   document.getElementById('col-head'+(day+1)).textContent = weekdays[d.getDay()];
   document.getElementById('wicon'+(day+1)).src = "https://openweathermap.org/img/wn/" + forecast.weather[0].icon + "@2x.png";
   day++;
@@ -63,5 +63,3 @@ fivedayforecast.forEach(forecast => {
     
     
     });
-
-
