@@ -11,11 +11,10 @@ fetch(requestURL)
 //Create elements and content 
     for (let i = 0; i < towns.length; i++ ) {
         if (towns[i].name == "Preston"){ //|| towns[i].name == "Soda Springs" || towns[i].name == "Fish Haven"){
- //Create section image
-        let card = document.createElement('eventcard');
+ 
 //create text section 
-
-        let event1= document.createElement('p');
+        let box = document.createElement('eventbox');
+        let event1 = document.createElement('p');
         let event2 = document.createElement('p');
         let event3 = document.createElement('p');
 
@@ -26,10 +25,10 @@ fetch(requestURL)
         
 
 //put elements in text section
-        text.appendChild(event1);
-        text.appendChild(event2);
-        text.appendChild(event3);
-        document.querySelector('.towns').appendChild(card);
+        box.appendChild(event1);
+        box.appendChild(event2);
+        box.appendChild(event3);
+        document.querySelector('.towns').appendChild(box);
         }
     }
   });
