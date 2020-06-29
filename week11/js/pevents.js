@@ -12,8 +12,7 @@ fetch(requestURL)
     for (let i = 0; i < towns.length; i++ ) {
         if (towns[i].name == "Preston"){ //|| towns[i].name == "Soda Springs" || towns[i].name == "Fish Haven"){
  //Create section image
-        let events = document.createElement('section');
-
+        let card = document.createElement('eventcard');
 //create text section 
 
         let event1= document.createElement('p');
@@ -26,12 +25,11 @@ fetch(requestURL)
        event3.textContent = towns[i].events[2];
         
 
-
 //put elements in text section
         text.appendChild(event1);
         text.appendChild(event2);
         text.appendChild(event3);
-        document.querySelector('.towns').appendChild(events;
+        document.querySelector('.towns').appendChild(card);
         }
     }
   });

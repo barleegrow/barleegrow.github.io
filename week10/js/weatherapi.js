@@ -14,8 +14,8 @@
    const current = document.getElementById('currently');
 
   current.textContent = jsObject.weather[0].description;
-  temp.textContent = jsObject.main.temp;
-  wind.textContent = jsObject.wind.speed;
+  temp.textContent = Math.round (jsObject.main.temp);
+  wind.textContent = Math.round (jsObject.wind.speed) +' mph';
   humid.textContent = jsObject.main.humidity + '%';
     
   });

@@ -144,6 +144,17 @@ section{
     color: #264653;   
     box-shadow: 0 0 10px #111;
 }
+.eventcard p{
+    text-align: center;
+    line-height: .5em;
+}
+.pevents. .fevents, .sevents{
+    padding: 0px 0px 10px 0;
+    margin-bottom: 30px;
+    margin-top: -5px;
+    background-color: #e9c46a;
+    border: #e76f51 solid 3px;
+}
 .figcaption{
     font-size: smaller;
 }
