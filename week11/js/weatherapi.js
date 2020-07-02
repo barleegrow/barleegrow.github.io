@@ -11,11 +11,11 @@
    const temp = document.getElementById('temp');
    const wind = document.getElementById('wind');
    const humid =  document.getElementById('humid');
-   const current = document.getElementById('currently');
+  let current = document.getElementById('currently');
 
   current.textContent = jsObject.weather[0].description;
-  temp.textContent = jsObject.main.temp;
-  wind.textContent = jsObject.wind.speed;
+  temp.textContent = Math.round(jsObject.main.temp);
+  wind.textContent = Math.round(jsObject.wind.speed);
   humid.textContent = jsObject.main.humidity + '%';
     
   });
@@ -48,16 +48,17 @@ const apiURL2 = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&uni
 
       const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 
-      let day = 0;
+      let day = 1;
 fivedayforecast.forEach(forecast => {
   
   let d= new Date(forecast.dt_txt);
-  document.getElementById('data'+(day+1)).textContent = Math.round (forecast.main.temp); 
-  document.getElementById('col-head'+(day+1)).textContent = weekdays[d.getDay()];
-  document.getElementById('wicon'+(day+1)).src = "https://openweathermap.org/img/wn/" + forecast.weather[0].icon + "@2x.png";
+  document.getElementById('data'+ day.toString()).textContent = Math.round (forecast.main.temp); 
+  document.getElementById('col-head'+ day.toString()).textContent = weekdays[d.getDay()];
+  document.getElementById('wicon'+ day.toString()).src = "https://openweathermap.org/img/wn/" + forecast.weather[0].icon + "@2x.png";
+  document.getElementById('wicon'+day.toString()).alt = forecast.weather[0].description;
   day++;
-  document.getElementById('wicon'+(day+1)).alt = forecast.weather[0].description;
 });
+
 
     
     

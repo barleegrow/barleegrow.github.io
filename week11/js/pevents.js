@@ -13,7 +13,7 @@ fetch(requestURL)
         if (towns[i].name == "Preston"){ //|| towns[i].name == "Soda Springs" || towns[i].name == "Fish Haven"){
  
 //create text section 
-        let box = document.createElement('eventbox');
+        let box = document.createElement('div');
         let event1 = document.createElement('p');
         let event2 = document.createElement('p');
         let event3 = document.createElement('p');
