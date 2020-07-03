@@ -1,4 +1,4 @@
-/*Preston*/
+/*Soda Springs*/
 
 const apiURL3 = 'https://api.openweathermap.org/data/2.5/weather?id=5607916&units=imperial&APPID=0b991a27171c24f0a1099f22e88cd0eb';
       

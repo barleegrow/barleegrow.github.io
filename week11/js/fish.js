@@ -1,6 +1,6 @@
-/*Preston*/
+/*Fish Haven*/
 
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?q=Fish Haven&units=imperial&APPID=0b991a27171c24f0a1099f22e88cd0eb';
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?zip=83287&units=imperial&APPID=0b991a27171c24f0a1099f22e88cd0eb';
       
 fetch(apiURL)
 .then((response) => response.json())
@@ -38,7 +38,7 @@ document.getElementById('windchill').innerHTML = windchill;
 
 /*5 day forecast*/
 
-const apiURL2 = 'https://api.openweathermap.org/data/2.5/forecast?q=Fish Haven&units=imperial&APPID=0b991a27171c24f0a1099f22e88cd0eb';
+const apiURL2 = 'https://api.openweathermap.org/data/2.5/forecast?zip=83287&units=imperial&APPID=0b991a27171c24f0a1099f22e88cd0eb';
 fetch(apiURL2)
 .then((response) => response.json())
 .then((jsObject) => {
