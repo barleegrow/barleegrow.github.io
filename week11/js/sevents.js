@@ -1,5 +1,4 @@
-
-  const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 fetch(requestURL)
     .then(function (response) {
         return response.json();
@@ -10,7 +9,7 @@ fetch(requestURL)
 
         //Create elements and content
         for (let i = 0; i < towns.length; i++) {
-            if (towns[i].name == "Preston" //towns[i].name == "Fish Haven" || towns[i].name == "Soda Springs"
+            if (towns[i].name == "Soda Springs" 
             ) {
                
                 let box = document.createElement('eventbox');
@@ -31,10 +30,8 @@ fetch(requestURL)
                 box.appendChild(event1);
                 box.appendChild(event2);
                 box.appendChild(event3);
-                document.querySelector('div.pevents').appendChild(box);
+                document.querySelector('div.sevents').appendChild(box);
             }
             
         }
     });
-
-    

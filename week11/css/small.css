@@ -147,13 +147,18 @@ section{
 .eventbox p{
     text-align: center;
     line-height: .5em;
+
+
 }
-.pevents. .fevents, .sevents{
-    padding: 0px 0px 10px 0;
-    margin-bottom: 30px;
-    margin-top: -5px;
-    background-color: #e9c46a;
-    border: #e76f51 solid 3px;
+.pevents, .fevents, .sevents{
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background-color: #f4a261;
+    border: #e9c46a solid 1px;
+    background: radial-gradient(#eee, #f4a261);
+    border: 1px solid #e76f51;
+    box-shadow: 0 0 15px #111;
 }
 .figcaption{
     font-size: smaller;
@@ -234,7 +239,7 @@ section{
 }
 .towns p{
     text-align: center;
-    color: black;
+    color: white; 
 }
 .towns section{
     background-color: #2a9d8f;

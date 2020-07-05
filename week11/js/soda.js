@@ -50,16 +50,18 @@ const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 
 let day = 1;
 fivedayforecast.forEach(forecast => {
+  
+    let d= new Date(forecast.dt_txt);
+    document.getElementById('data'+ day.toString()).textContent = Math.round (forecast.main.temp); 
+    document.getElementById('col-head'+ day.toString()).textContent = weekdays[d.getDay()];
+    document.getElementById('wicon'+ day.toString()).src = "https://openweathermap.org/img/wn/" + forecast.weather[0].icon + "@2x.png";
+    document.getElementById('wicon'+day.toString()).alt = forecast.weather[0].description;
+    day++;
+  });
+  
+  
+      
+      
+      });
 
-let d= new Date(forecast.dt_txt);
-document.getElementById('data'+ day.toString()).textContent = Math.round (forecast.main.temp); 
-document.getElementById('col-head'+ day.toString()).textContent = weekdays[d.getDay()];
-document.getElementById('wicon'+ day.toString()).src = "https://openweathermap.org/img/wn/" + forecast.weather[0].icon + "@2x.png";
-document.getElementById('wicon'+day.toString()).alt = forecast.weather[0].description;
-day++;
-});
 
-
-
-
-});
