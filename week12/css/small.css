@@ -45,7 +45,6 @@ h2 { font-size: 2rem;
 h3 {
     font-size: 1.5rem;
     margin: 0;
-    text-align: center;
     font-family: 'Boogaloo';
 }
 h4{
@@ -93,8 +92,9 @@ p {
     font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
     margin: 0px;
-    color: #264653;
+    color: #340068;
 }
+
 .section{
     border-radius: 10px;
     gap: 15px;
@@ -176,6 +176,10 @@ p {
     width: 100%;
     margin: 0.5rem;
 }
+.headers{
+    background-color: #ff6978;
+    color: #340068;
+}
 .headings{
     display: flex;
     flex-direction: column;
@@ -234,6 +238,7 @@ p {
     box-shadow: 0 0 15px #111;
 	opacity: .9;
 }
+
 .towns img{
     padding: 15px; 
 }
