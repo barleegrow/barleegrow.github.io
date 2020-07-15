@@ -1,0 +1,57 @@
+{"rentals": [
+    { 
+        "rental type": "Honda Metro Scooter",
+        "max persons": "1",
+        "half dayR": "$20",
+        "full dayR": "$30",
+        "half dayW": "$25",
+        "full dayW": "$35",
+        "picture" : "/week12/images/beach-scooter.jpg"
+},
+{
+    "rental type": "Honda Dio Scooter",
+    "max persons": "2",
+    "half dayR": "$30",
+    "full dayR": "$40",
+    "half dayW": "$35",
+    "full dayW": "$45",
+   "picture" : "/week12/images/colorful-scooters.jpg"
+}, 
+{
+    "rental type": "Honda PCX150 Scooter",
+        "max persons": "2",
+        "half dayR": "$40",
+        "full dayR": "$50",
+        "half dayW": "$45",
+        "full dayW": "$55",
+        "picture" : "/week12/images/scooter-post4.jpg"
+},
+{
+    "rental type": "Honda Pioneer ATV",
+        "max persons": "4",
+        "half dayR": "$50",
+        "full dayR": "$70",
+        "half dayW": "$60",
+        "full dayW": "$80",
+        "picture" : "/week12/images/cozumel-atv-tour-08.jpg"
+},
+{
+    "rental type": "Jeep Wrangler - 4 door with a/c",
+    "max persons": "5",
+    "half dayR": "$70",
+    "full dayR": "$100",
+    "half dayW": "$85",
+    "full dayW": "$125",
+    "picture" : "/week12/cozumel/jeeps.jpg"
+},
+{
+    "rental type": "Jeep Wrangler - 2 door",
+    "max persons": "4",
+    "half dayR": "$60",
+    "full dayR": "$85",
+    "half dayW": "$70",
+    "full dayW": "$90",
+    "picture" : "/week12/images/yellow-jeep.jpg"
+}
+]
+}
