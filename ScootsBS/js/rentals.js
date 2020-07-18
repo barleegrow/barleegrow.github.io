@@ -1,4 +1,4 @@
-const requestURL = 'https://barleegrow.github.io/week12/data/rentals.json';
+const requestURL = 'https://barleegrow.github.io/ScootsBS/data/rentals.json';
 
 fetch(requestURL)
   .then(function (response) {

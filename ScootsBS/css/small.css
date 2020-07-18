@@ -37,6 +37,7 @@ h1 {text-align: center;
     font-family: 'Boogaloo';
     margin: 0;
     padding: .5rem;
+    color: #340068;
     }
 h2 { font-size: 2rem;
     margin: 0;
@@ -115,7 +116,7 @@ p {
     background-color: #fffcf9;
     border: 1px solid #6d435a; 
     color: #340068;   
-    text-align: left; 
+    text-align: center; 
 }
 .articleimg{
     width:100%;
@@ -146,22 +147,7 @@ p {
     color: #340068;   
     box-shadow: 0 0 10px #111;
 }
-.eventbox p{
-    text-align: center;
-    line-height: .5em;
 
-
-}
-.pevents, .fevents, .sevents{
-    padding: 15px;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    background-color: #f4a261;
-    border: #b1ede8 solid 1px;
-    background: radial-gradient(#eee, #f4a261);
-    border: 1px solid #e76f51;
-    box-shadow: 0 0 15px #111;
-}
 .figcaption{
     font-size: smaller;
 }

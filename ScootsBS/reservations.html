@@ -33,9 +33,56 @@
     </ul>
 <body>
 
-    <h3>We offer all types of sport vehicles for your adventure needs</h3><br>
 
+    <fieldset class="container">
+            <form method="get" action="thanks.html">
+                <div id="stormcenter">
+                    <h2>Reserve Your Adventure!</h2>
+                </div>
+    <fieldset class="container1">
+        <legend>Personal Information</legend>
+         <label for="name">Full Name (required)
+            <input type="text" id="name" name="fullName" pattern="[a-zA-Z ]{5,}"  required  oninput="submit">
+         </label>
+                
+         <label for="email">Email(required):
+            <input type="text" id="email" name="email" placeholder="user@email.com" required oninput="submit"></label>
+                
+         <label for="phone">Phone: 
+         <input type="tel" id="phone" name="phone" placeholder="1234567890" required oninput="submit">
+         </label>
 
+         </fieldset>
+                
+            <fieldset class="container1">
+                <legend>Rental Needs</legend>
+                    <label for="theDate">Date of Adventure:
+                        <input type="date" id=theDate name="date"></label>
+
+                    <label for="Vehicle">Vehicle: 
+                        <select name="type" id="Vehicle"  list="Vehicle">
+                    <option value="">Choose One</option>
+                    <option value="Honda Metro Scooter">Honda Metro Scooter</option>
+                    <option value="Honda Dio Scooter">Honda Dio Scooter</option>
+                    <option value="Honda PCX150 Scooter">Honda PCX150 Scooter</option>
+                    <option value="Honda Pioneer ATV">Honda Pioneer ATV</option>
+                    <option value="Jeep Wrangler - 4 door with  a/c">Jeep Wrangler - 4 door with  a/c</option>
+                    <option value="Jeep Wrangler - 2 door>Jeep Wrangler - 2 door</option>
+                    </select>
+                   
+                    <label>Full Day or Half-Day? <em>(Choose one)</em></label>
+                        <label for="Full"><input type="radio" id="Full" name="answer" value="Full" checked>Full</label>
+                        <label for="Half"><input type="radio" id="Half" name="answer" value="Half"> Half</label>
+                        </fieldset>
+
+                <fieldset class="container1">
+                            <label for="message">Additional Information or Comments</label>
+                            <textarea id="additional" name="message" rows="10" cols="50"></textarea>
+                </fieldset>
+           
+                        <button type="submit">Submit</button>
+            </form>
+       
 
 <footer>
         <p id=footer-text>&copy; 2020
@@ -48,6 +95,6 @@
         <script src="js/current_date.js"></script>  
         <script src="js/hamburger.js"></script> 
         <script src="js/home.js"></script>
-        <script src="js/rentals.js"></script>
+        <script src="js/external.js"></script>
 </body>
 </html>

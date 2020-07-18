@@ -31,12 +31,15 @@
         display: flex;
         flex-wrap: wrap;
         text-align: center;
+        color: #fffcf9;
         padding: 5px;
-        box-shadow: 0 0 10px #264653;
+        box-shadow: 0 0 10px #340068;
+        background-color: #6d435a;
     }
     .flex-col {
         display: flex;
-        background-color: #e9c46a;
+        background-color: #6d435a;
+        color: #340068;
         padding: 5px;
     }
     .gallery{
@@ -81,25 +84,39 @@
     .rentals section:nth-child(1) {
         display: flex;
         flex-direction: row;
-        grid-row: 3;
+        grid-row: 1;
     }
     .rentals section:nth-child(2) {
         display: flex;
         flex-direction: row;
-        grid-row: 1;
+        grid-row: 2;
     }
     .rentals section:nth-child(3) {
         display: flex;
-        flex-direction: row-reverse;
-        grid-row: 2;
+        flex-direction: row;
+        grid-row: 3;
     }
-    
+    .rentals section:nth-child(4) {
+        display: flex;
+        flex-direction: row;
+        grid-row: 4;
+    }
+    .rentals section:nth-child(5) {
+        display: flex;
+        flex-direction: row;
+        grid-row: 5;
+    }
+    .rentals section:nth-child(6) {
+        display: flex;
+        flex-direction: row;
+        grid-row: 6;
+    }
     .wicon{ 
         border-radius: 40px;
     }  
     main {
             background-color: white;
-            border: solid thick  #264653;
+            border: solid thick  #340068;
             grid-template-columns: 1fr 1fr;
         }
         nav ul{
