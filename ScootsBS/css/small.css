@@ -143,6 +143,14 @@ p {
     color: #340068;   
     box-shadow: 0 0 10px #111;
 }
+.container1{
+    display: flex;
+    flex-direction: column;
+    background-color: #b1ede8;
+    border: 1px solid #340068; 
+    color: #340068;   
+    box-shadow: 0 0 10px #111;
+}
 .contentbox{
     display: flex;
     flex-direction: column;
@@ -151,7 +159,6 @@ p {
     color: #340068;   
     box-shadow: 0 0 10px #111;
 }
-
 .figcaption{
     font-size: smaller;
 }

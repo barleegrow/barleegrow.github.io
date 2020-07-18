@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BStacey WDD 230</title>
+    <meta name="description" content="BStacey Assignment Portal WDD 230 BYU-I">
+    <!--<link rel="icon" href="/images/faviconuse.ico">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<header>
+        <picture>
+        <img src="images/scoots.png" alt="logo">
+    </picture>
+              <h1>Scoots</h1><br>
+      <div class="motto">Adventure on Wheels</div>
+    </header>
+<nav>
+    <ul class="navigation">
+        
+            <li><a class="ham" onclick="toggleMenu()" href="#">&#9776; Menu</a></li>    
+            <li><a href="home.html">Home</a></li>
+        <li><a href="rentals.html">Rentals</a></li>
+        <li><a href="reservations.html" class="active"> Reservations</a></li>
+        <li><a href="tours.html">Tours</a></li>
+        <li><a href="contact.html">Contact Center</a></li>
+    </ul>
+<body>
+
+
+    <fieldset class="container">
+            <form method="get" action="confirmation.html">
+                <div id="stormcenter">
+                    <h2>Contact Us</h2>
+                </div>
+    <fieldset class="container1">
+        <legend>Personal Information</legend>
+         <label for="name">Full Name (required)
+            <input type="text" id="name" name="fullName" pattern="[a-zA-Z ]{5,}"  required  oninput="submit">
+         </label>
+                
+         <label for="email">Email(required):
+            <input type="text" id="email" name="email" placeholder="user@email.com" required oninput="submit"></label>     
+
+         </fieldset>
+                
+           
+                <fieldset class="container1">
+                            <label for="message">How can we help?</label>
+                            <textarea id="additional" name="message" rows="10" cols="50"></textarea>
+                </fieldset>
+           <div>
+                <button type="submit" formaction="confirmation.html">Submit</button>
+            </div>
+            </form>
+            <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95501.4027688285!2d-86.9326541368804!3d20.445550769998025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59cd70625421%3A0xb1974a1818657af2!2sCozumel%20Cruise%20Terminal!5e0!3m2!1sen!2sus!4v1595110171966!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+       
+
+<footer>
+        <p id=footer-text>&copy; 2020
+        | Barbara Stacey | Georgia |
+        <a id="BYU-I" href="https://www.byui.edu/online">BYUI Online Learning</a>
+        <a href="https/facebook.com"></a>
+        <span id="today"></span>  
+        </p>       
+        </footer>
+        <script src="js/current_date.js"></script>  
+        <script src="js/hamburger.js"></script> 
+        <script src="js/home.js"></script>
+        <script src="js/external.js"></script>
+</body>
+</html>

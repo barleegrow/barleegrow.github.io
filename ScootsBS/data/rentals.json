@@ -6,7 +6,7 @@
         "full dayR": "$30",
         "half dayW": "$25",
         "full dayW": "$35",
-        "picture" : "/week12/images/beach-scooter.jpg"
+        "picture" : "ScootsBS/images/beach-scooter.jpg"
 },
 {
     "rental type": "Honda Dio Scooter",
@@ -15,7 +15,7 @@
     "full dayR": "$40",
     "half dayW": "$35",
     "full dayW": "$45",
-   "picture" : "/week12/images/colorful-scooters.jpg"
+   "picture" : "ScootsBS/images/colorful-scooters.jpg"
 }, 
 {
     "rental type": "Honda PCX150 Scooter",
@@ -24,7 +24,7 @@
         "full dayR": "$50",
         "half dayW": "$45",
         "full dayW": "$55",
-        "picture" : "/week12/images/scooter-post4.jpg"
+        "picture" : "ScootsBS/images/scooter-post4.jpg"
 },
 {
     "rental type": "Honda Pioneer ATV",
@@ -33,7 +33,7 @@
         "full dayR": "$70",
         "half dayW": "$60",
         "full dayW": "$80",
-        "picture" : "/week12/images/cozumel-atv-tour-08.jpg"
+        "picture" : "ScootsBS/images/cozumel-atv-tour-08.jpg"
 },
 {
     "rental type": "Jeep Wrangler - 4 door with a/c",
@@ -42,7 +42,7 @@
     "full dayR": "$100",
     "half dayW": "$85",
     "full dayW": "$125",
-    "picture" : "/week12/cozumel/jeeps.jpg"
+    "picture" : "ScootsBS/cozumel/jeeps.jpg"
 },
 {
     "rental type": "Jeep Wrangler - 2 door",
@@ -51,7 +51,7 @@
     "full dayR": "$85",
     "half dayW": "$70",
     "full dayW": "$90",
-    "picture" : "/week12/images/yellow-jeep.jpg"
+    "picture" : "ScootsBS/images/yellow-jeep.jpg"
 }
 ]
 }
