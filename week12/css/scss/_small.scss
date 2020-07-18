@@ -6,7 +6,7 @@ a:visited {
     color: #6d435a;
 }
 body{
-    font-family: 'Ubuntu' sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     background-color: #fffcf9;
     padding: 0;
     margin: auto;
@@ -25,7 +25,7 @@ footer{
     padding: 10px;
 }
 header{
-    background-color: #fffcf9;
+    background-color:#fffcf9;
     padding: 5px 0;
     display: flex;
     flex-wrap: wrap;
@@ -89,7 +89,7 @@ nav ul{
     text-decoration: none;
 }
 p {
-    font-family: 'Ubuntu' sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
     margin: 0px;
     color: #340068;
@@ -99,27 +99,27 @@ p {
     border-radius: 10px;
     gap: 15px;
     margin: .5rem auto;
-    background-color: #b1ede8;
-    border: solid 2px #6d435a;
+    background-color: #2a9d8f;
+    border: solid 2px #264653;
     padding-bottom: 15px;
 }
 .action{
-    background-color: #b1ede8;
+    background-color: $main;
 }
 .active {
     background-color: #ff6978;
-    position: relative;
+    position:relative;
 }
 .article{
     display: block;
     background-color: #fffcf9;
-    border: 1px solid #6d435a; 
-    color: #340068;   
+    border: 1px solid #340068; 
+    color: #fffcf9;   
     text-align: left; 
 }
 .articleimg{
     width:100%;
-    position: relative;
+    position: center;
     border-radius: 5px;
 }
 .card {
@@ -133,17 +133,17 @@ p {
 .container{
     display: flex;
     flex-direction: column;
-    background-color: #b1ede8;
-    border: 1px solid #340068; 
-    color: #340068;   
+    background-color:#e9c46a;
+    border: 1px solid #264653; 
+    color: #264653;   
     box-shadow: 0 0 10px #111;
 }
 .contentbox{
     display: flex;
     flex-direction: column;
-    background-color:#b1ede8;
-    border: 1px solid #340068; 
-    color: #340068;   
+    background-color:#e9c46a;
+    border: 1px solid #264653; 
+    color: #264653;   
     box-shadow: 0 0 10px #111;
 }
 .eventbox p{
@@ -157,7 +157,7 @@ p {
     margin-bottom: 15px;
     margin-top: 15px;
     background-color: #f4a261;
-    border: #b1ede8 solid 1px;
+    border: #e9c46a solid 1px;
     background: radial-gradient(#eee, #f4a261);
     border: 1px solid #e76f51;
     box-shadow: 0 0 15px #111;
@@ -188,7 +188,7 @@ p {
 }
 .headings h1 {
     margin: 0 0 0 15px;
-    color: #340068;
+    color: #264653;
 }
 .herodiv {margin: 10px auto;
     background-color: #ffffff;
@@ -198,7 +198,7 @@ p {
 .motto{
         font-style: italic;
         letter-spacing: 1pt; 
-        color: #340068;
+        color: #264653;
         margin-left: 20px;
         font-size: 16px;
 }
@@ -221,36 +221,36 @@ p {
         border-top: 1px solid rgba(0,0,0,0.3);
 }
 .navigation a:hover{
-    color:#ff6978;
+    color:#e9c46a;
 }
 .responsive li{
         display: block;
 }
 .navigation active a{
-    background-color: #ff6978;
-    color: #340068;
+    background-color: #e9c46a;
+    color: black
 }
 .summary {
 	position: absolute;
 	bottom: 50px;
-	background: radial-gradient(#eee,#ff6978);
-    border: 1px solid #6d435a;
+	background: radial-gradient(#eee, #f4a261);
+    border: 1px solid #e76f51;
     border-radius: 20px;
 	padding: 1.5rem;
     box-shadow: 0 0 15px #111;
 	opacity: .9;
 }
 
-.rentals img{
+.towns img{
     padding: 15px; 
 }
-.rentals p{
+.towns p{
     text-align: center;
     color: white; 
 }
-.rentals section{
-    background-color: #b1ede8;
-    border: solid 2px #340068;
+.towns section{
+    background-color: #2a9d8f;
+    border: solid 2px #264653;
 }
 .text{
     display: flex;

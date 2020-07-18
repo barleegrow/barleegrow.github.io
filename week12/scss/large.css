@@ -37,25 +37,25 @@
     .navigation li:first-child {
         display: none;
     }
-    .rentals {
+    .towns {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         margin: 0;
         grid-gap: 5px;
     }
-    .rentals section:nth-child(1) {
+    .towns section:nth-child(1) {
         display: flex;
         flex-direction: column;
         grid-column: 3;
         grid-row: 1;
     }
-    .rentals section:nth-child(2) {
+    .towns section:nth-child(2) {
         display: flex;
         flex-direction: column;
         grid-column: 1;
         grid-row: 1;
     }
-    .rentals section:nth-child(3) {
+    .towns section:nth-child(3) {
         display: block;
         grid-column: 2;
         grid-row: 1;
