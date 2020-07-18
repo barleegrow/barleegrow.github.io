@@ -60,6 +60,10 @@ header img{
     width: 80px;
     height: auto;
 }
+li{
+    font-family: 'Ubuntu';
+    font-size: 20px;
+}
 main {
     max-width: 950px;
     margin: 0 auto;
@@ -255,15 +259,12 @@ p {
     width: 100%;
     height: auto;
 }
-#pancakes{
-    display: block;
-    text-align: center;
-    background-color: white
-}
-#preston-map{
-    width: 25%;
+#reservations{
+    background-color: #ff6978;
     border-radius: 5px;
-}    
+    font-family: 'Ubuntu';
+    font-size: 30px;
+} 
 #today{
     display: block;
     margin-top: 10px;
