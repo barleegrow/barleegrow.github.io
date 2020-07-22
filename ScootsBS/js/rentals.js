@@ -10,7 +10,7 @@ fetch(requestURL)
 
     //Create elements and content
     for (let i = 0; i < rentals.length; i++ ) {
-        let card = document.createElement('section');
+        let card = document.createElement('sections');
         let type = document.createElement('h2');
         let max = document.createElement('p');
         let HalfR = document.createElement('p');
