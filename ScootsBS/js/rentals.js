@@ -1,4 +1,4 @@
-const requestURL = 'https://barleegrow.github.io/ScootsBS/data/rentals.json';
+/*const requestURL = 'https://barleegrow.github.io/ScootsBS/data/rentals.json';
 
 fetch(requestURL)
   .then(function (response) {
@@ -48,8 +48,47 @@ fetch(requestURL)
     }
   });
 
-  //confirmation number
-  function rand(maxLimit = 100) {
-        let rand = Math.random() * maxLimit;
-        return Math.floor(rand);
-  }
+  const requestURL = '/ScootsBS/data/rentals.json';*/
+  const requestURL = 'https://barleegrow.github.io/ScootsBS/data/rentals.json';
+fetch(requestURL)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    console.table(jsonObject);  // temporary checking for valid response and data parsing
+    const rentals = jsonObject['rentals'];
+
+    //Create elements and content
+    for (let i = 0; i < rentals.length; i++ ) {
+        let card = document.createElement('section');
+        let rentalType = document.createElement('h2');
+        let max = document.createElement('p');
+        let HalfR = document.createElement('p');
+        let FullR = document.createElement('p');
+        let HalfW = document.createElement('p');
+        let FullW = document.createElement('p');
+        let photo = document.createElement('img');
+
+        //Create content
+        rentalType.textContent = 'Rental Type: ' + rentals[i].max;
+        max.textContent = 'Max Persons: ' + rentals[i].maxPersons;
+        HalfR.textContent = 'Half Day Reserved' + rentals[i].halfR;
+        FullR.textContent = 'Full Day Reserved' + rentals[i].fullR;
+        HalfW.textContent = 'Half Day Walk-in' + rentals[i].halfW;
+        FullW.textContent = 'Full Day Walk-in' + rentals[i].fullW;
+        photo.setAttribute('src', rentals[i].imageurl);
+        photo.setAttribute('alt', rentals[i].picture );
+        rentalType.textContent = rentals[i].picture ;
+
+        //Put elements in each
+        card.appendChild(rentalType);
+        card.appendChild(max);
+        card.appendChild(HalfR);
+        card.appendChild(FullR);
+        card.appendChild(HalfW);
+        card.appendChild(FullW);
+        card.appendChild(photo);
+        document.querySelector('div.cards').appendChild(card);
+    }
+  });
+

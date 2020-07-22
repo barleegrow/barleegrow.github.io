@@ -143,6 +143,14 @@ ul{
     grid-template-rows: 1fr 1fr 1fr;
     gap: 50px;        
 }
+.cards {
+    margin-top: 50px;
+    margin-bottom: 70px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 50px;        
+}
 .container{
     display: flex;
     flex-direction: column;
