@@ -143,13 +143,39 @@ ul{
     grid-template-rows: 1fr 1fr 1fr;
     gap: 50px;        
 }
-.cards {
-    margin-top: 50px;
-    margin-bottom: 70px;
+.cards{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 50px;        
+    gap: 5px;
+    align-self: auto;
+}
+}
+cards h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    color: #340068;
+    text-align: center;
+}
+cards picture{
+    width: 80%;
+    display: block;
+    margin: 5px auto 0 auto;
+    box-shadow: 0px 0px 10px 5px darkgray;
+}
+cards main{
+    max-width: 1200px;
+    box-shadow: 0px 0px 10px 5px darkgray;
+    padding: 15px;
+    background-color: #d5d5d5;
+}
+cards p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+cards section{
+    background-color: #b1ede8;
+    border: solid 2px #340068;
+    padding-bottom: 15px;
 }
 .container{
     display: flex;

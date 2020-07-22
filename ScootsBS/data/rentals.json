@@ -1,6 +1,6 @@
 {"rentals": [
     { 
-        "rental type": "Honda Metro Scooter",
+        "type": "Honda Metro Scooter",
         "max": "1",
         "halfR": "$20",
         "fullR": "$30",
@@ -9,7 +9,7 @@
         "picture" : "https://barleegrow.github.io/ScootsBS/images/beach-scooter.jpg"
 },
 {
-    "rental type": "Honda Dio Scooter",
+    "type": "Honda Dio Scooter",
     "max": "2",
     "halfR": "$30",
     "fullR": "$40",
@@ -18,7 +18,7 @@
    "picture" : "https://barleegrow.github.io/ScootsBS/images/colorful-scooters.jpg"
 }, 
 {
-    "rental type": "Honda PCX150 Scooter",
+    "type": "Honda PCX150 Scooter",
         "max": "2",
         "halfR": "$40",
         "fullR": "$50",
@@ -27,7 +27,7 @@
         "picture" : "https://barleegrow.github.io/ScootsBS/images/scooter-post4.jpg"
 },
 {
-    "rental type": "Honda Pioneer ATV",
+    "type": "Honda Pioneer ATV",
         "max": "4",
         "halfR": "$50",
         "fullR": "$70",
@@ -36,7 +36,7 @@
         "picture" : "https://barleegrow.github.io/ScootsBS/images/cozumel-atv-tour-08.jpg"
 },
 {
-    "rental type": "Jeep Wrangler - 4 door with a/c",
+    "type": "Jeep Wrangler - 4 door with a/c",
     "max": "5",
     "halfR": "$70",
     "fullR": "$100",
@@ -45,7 +45,7 @@
     "picture" : "https://barleegrow.github.io/ScootsBS/cozumel/jeeps.jpg"
 },
 {
-    "rental type": "Jeep Wrangler - 2 door",
+    "type": "Jeep Wrangler - 2 door",
     "max": "4",
     "halfR": "$60",
     "fullR": "$85",
