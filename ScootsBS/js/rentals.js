@@ -71,7 +71,7 @@ fetch(requestURL)
 
         //Create content
         rentalType.textContent = 'Rental Type: ' + rentals[i].max;
-        max.textContent = 'Max Persons: ' + rentals[i].maxPersons;
+        max.textContent = 'Max Persons: ' + rentals[i].max;
         HalfR.textContent = 'Half Day Reserved' + rentals[i].halfR;
         FullR.textContent = 'Full Day Reserved' + rentals[i].fullR;
         HalfW.textContent = 'Half Day Walk-in' + rentals[i].halfW;

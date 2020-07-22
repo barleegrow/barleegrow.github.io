@@ -6,7 +6,7 @@
         "fullR": "$30",
         "halfW": "$25",
         "fullW": "$35",
-        "picture" : "ScootsBS/images/beach-scooter.jpg"
+        "picture" : "https://barleegrow.github.io/ScootsBS/images/beach-scooter.jpg"
 },
 {
     "rental type": "Honda Dio Scooter",
@@ -15,7 +15,7 @@
     "fullR": "$40",
     "halfW": "$35",
     "fullW": "$45",
-   "picture" : "ScootsBS/images/colorful-scooters.jpg"
+   "picture" : "https://barleegrow.github.io/ScootsBS/images/colorful-scooters.jpg"
 }, 
 {
     "rental type": "Honda PCX150 Scooter",
@@ -24,7 +24,7 @@
         "fullR": "$50",
         "halfW": "$45",
         "fullW": "$55",
-        "picture" : "ScootsBS/images/scooter-post4.jpg"
+        "picture" : "https://barleegrow.github.io/ScootsBS/images/scooter-post4.jpg"
 },
 {
     "rental type": "Honda Pioneer ATV",
@@ -33,7 +33,7 @@
         "fullR": "$70",
         "halfW": "$60",
         "fullW": "$80",
-        "picture" : "ScootsBS/images/cozumel-atv-tour-08.jpg"
+        "picture" : "https://barleegrow.github.io/ScootsBS/images/cozumel-atv-tour-08.jpg"
 },
 {
     "rental type": "Jeep Wrangler - 4 door with a/c",
@@ -42,7 +42,7 @@
     "fullR": "$100",
     "halfW": "$85",
     "fullW": "$125",
-    "picture" : "ScootsBS/cozumel/jeeps.jpg"
+    "picture" : "https://barleegrow.github.io/ScootsBS/cozumel/jeeps.jpg"
 },
 {
     "rental type": "Jeep Wrangler - 2 door",
@@ -51,7 +51,7 @@
     "fullR": "$85",
     "halfW": "$70",
     "fullW": "$90",
-    "picture" : "ScootsBS/images/yellow-jeep.jpg"
+    "picture" : "https://barleegrow.github.io/ScootsBS/images/yellow-jeep.jpg"
 }
 ]
 }
